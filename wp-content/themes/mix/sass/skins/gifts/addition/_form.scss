@@ -1,0 +1,228 @@
+/*
+*  Form
+*/
+/* Button
+------------------------------------------------*/
+.btn-outline{
+	@include button-outline($btn-outline-color, $btn-outline-bg, $btn-outline-border, $btn-outline-hover-bg, $btn-outline-hover-color, $btn-outline-border-hover);
+	@include state-hover-default(.3s, $btn-outline-hover-bg, $nocolor);
+	@include border-radius(20px);
+	@include box-shadow(0 3px 0 #64bcae);
+	line-height: 35px;
+	padding: 0 25px;
+	&:hover{
+		@include box-shadow(0 1px 0 #dea844);
+	}
+
+}
+.btn-outline-lg{
+	@include button-size($btn-outline-lg-padding-vertical, $btn-outline-lg-padding-horizontal,$btn-outline-lg-font-size,$btn-outline-lg-line-height,$btn-outline-lg-border-radius);
+}
+.btn-outline-sm {
+	@include button-size($btn-outline-sm-padding-vertical, $btn-outline-sm-padding-horizontal, $btn-outline-sm-font-size, $btn-outline-sm-line-height, $btn-outline-sm-border-radius);
+}
+.btn-outline-xs{
+	@include button-size($btn-outline-xs-padding-vertical, $btn-outline-xs-padding-horizontal, $btn-outline-xs-font-size, $btn-outline-xs-line-height, $btn-outline-xs-border-radius);
+}
+.btn-outline-inverse{
+	@include button-outline($btn-outline-inverse-color, $btn-outline-inverse-bg, $btn-outline-inverse-border-color, $btn-outline-inverse-hover-bg,$btn-outline-inverse-hover-color,$btn-outline-inverse-border-hover-color);
+	@include state-hover-default(.3s, $btn-inverse-hover-bg, $nocolor);
+	@include border-radius(20px);
+	@include box-shadow(0 3px 0 #dea844);
+	line-height: 35px;
+	padding: 0 25px;
+	&:hover{
+		@include box-shadow(0 1px 0 #64bcae);
+	}
+}
+.btn-special{
+	@include button-outline($btn-special-color, $btn-special-bg, $btn-special-border, $btn-special-hover-bg, $btn-special-hover-color, $btn-special-border-hover);
+	@include state-hover-default(.3s, $btn-special-hover-bg, $nocolor);
+}
+
+.btn-trm{
+	@include button-outline($btn-outline-inverse-color, $btn-outline-inverse-bg, $btn-outline-inverse-border-color, $btn-outline-inverse-hover-bg,$btn-outline-inverse-hover-color,$btn-outline-inverse-border-hover-color);
+	@include state-hover-default(.3s, $btn-outline-inverse-hover-bg, $nocolor);
+}
+.btn-cart a{
+	@include border-radius(50%);
+	@include size(60px, 60px);
+	background: url("#{$image-theme-skin}cart-large.png") no-repeat center 16px $white;
+	@include transition(all 0.35s);
+	&:hover{
+		background-color: #f8c255;
+		background-position: center -36px;
+	}
+}  
+
+.form-style-1{
+	overflow: hidden;
+	border: 2px solid $black;
+	min-height: 100px;
+	padding: 30px 25px 0;
+	> *{
+		float: left;
+		margin-right: 2%;
+		&:last-child{
+			margin-right: 0;
+		}
+	}
+	.description{
+		width: 25%;
+		text-transform: uppercase;
+		.title{
+			display: block;
+			font-size: $font-size-base;
+			font-weight: 900;
+			color: $black;
+			line-height: 16px;
+			margin-top: -5px;
+		}
+		.desc{
+			display: block;
+			font-size: $font-size-base - 4;
+			font-weight: 300;
+			color: $color-2;
+			line-height: 20px;
+		}
+		.content{
+			display: none;
+		} 
+	}
+	.input-form{
+		width: 45%;
+	}
+	.button-submit{
+		width: 25%;
+	}
+}
+
+/* Newsletter
+------------------------------------------------*/
+.wpo-search{
+	@include rtl-text-align-left();
+	@include border-radius($search-border-radius);
+	.input-search{
+		border: 0;
+		padding: $search-padding;
+		background: $search-bg;
+		@include font-size(font-size,$search-font-size);
+		height: $search-height;
+		@include border-radius(4px 0px 0px 4px);
+		@include placeholder($text-color);
+		&:hover,&:focus{
+			@include box-shadow(none);
+		}
+	}
+	.fa{
+		border: 0;
+		padding: 0;
+		color: $search-main-button-color;
+		background: none transparent;
+		@include rotate(80deg);
+	}
+	.btn-search{
+		cursor: pointer;
+		background: $search-main-button-bg;
+		border: $search-button-border;
+	}
+}
+
+// Search categories
+.search-category{
+	.search-category-container{
+		padding: 0;
+		background: $white;
+
+	}
+	.select{
+		border: 0;
+		margin: 0;
+		background: $white;
+		select{
+			padding: 6px;
+			&:hover,
+			&:focus{
+				outline-style: none;
+			}
+		}
+	}
+	.btn-search{
+		padding: 0 5px;
+		line-height: 3;
+		background: $white;
+		@include border-right-radius($search-categories-border-radius);
+		@include border(1px 1px 1px 0px, $search-main-button-border, solid);
+		&:hover{
+			@include border(1px 1px 1px 0px, $search-main-button-border, solid);
+		}
+		.searchsubmit{
+			border: 0;
+			background: transparent;
+		}
+	}
+	.search-category-input{
+		height: 38px;
+		border-right: 0;
+	}
+}
+
+/* comment form
+------------------------------------------------*/
+
+/* Select, Input
+------------------------------------------------*/
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+textarea,select{
+	border: 1px solid $input-border;
+	padding: $input-padding;
+}
+
+.chosen-container{
+	width: 100% !important;
+}
+
+.input-group-form{
+	@include border-radius(3px);
+	background: $input-group-form-bg;
+	margin: $input-group-form-margin;
+	.form-control-reversed{
+		border: 0px;
+		background: $input-form-bg;
+		color: darken($white, 20%);
+	    @include font-size(font-size,14px);
+	    height: 34px;
+	    &:hover,
+	    &:focus{
+	        @include box-shadow(none);
+	    }
+	}
+	.input-group-addon{
+        border: 0;
+        background: $input-form-bg;
+        @include border-left-radius(4px);
+    }
+}
+
+.select{
+	overflow: hidden;
+	width: 180px;
+	cursor: pointer;
+	margin: 0;
+	font-weight: $font-weight-base;
+	border: 1px solid $border-color;
+	select{
+		@include appearance();
+		width:200px;
+		border: 0;
+		cursor: pointer;
+		background: transparent url("#{$image-theme-path}arrow.png") no-repeat 85% center;
+		&:hover,&:focus{
+			outline: none !important;
+			@include box-shadow(none);
+		}
+	}
+}

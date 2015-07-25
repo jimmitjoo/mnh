@@ -1,0 +1,29 @@
+.nav-tabs li{
+	> a{
+		font-family: $font-family-second;
+		font-weight: 300!important;
+		letter-spacing: 1px;
+	}
+}
+
+.navbar-mega .navbar-nav > li .dropdown-menu .widget-title{
+	font-family: $font-family-second;
+} 
+
+.vertical-menu .dropdown-menu {
+	.widget-title{
+		font-family: $font-family-second;
+		font-size: 12px;
+		font-weight: 300;
+		line-height: 2;
+	}
+	ul > li > a{
+		font-weight: 300!important;
+		color: $text-color;
+		font-size: 11px!important;
+		text-transform: uppercase!important;
+	}
+}
+.wpo-header.skin-sport .mainmenu-content .top-cart{
+	padding: 14px;
+}

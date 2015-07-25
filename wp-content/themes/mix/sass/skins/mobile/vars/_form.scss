@@ -1,0 +1,74 @@
+
+// Button
+// -------------------------
+$btn-transform                          : uppercase;
+$btn-padding-vertical                   : 5px;
+$btn-padding-horizontal                 : 28px;
+$btn-font-size                          : 12px;
+$btn-line-height                        : 30px;
+$btn-border-radius                      : 4px;
+
+$btn-lg-padding-vertical                : 15px;
+$btn-lg-padding-horizontal              : 30px;
+$btn-lg-font-size                       : 18px;
+$btn-lg-line-height                     : $line-height-large;
+$btn-lg-border-radius                   : 5px;
+
+$btn-sm-padding-vertical                : 7px;
+$btn-sm-padding-horizontal              : 12px;
+$btn-sm-font-size                       : 10px;
+$btn-sm-line-height                     : $line-height-small;
+$btn-sm-border-radius                   : $border-radius-small;
+
+$btn-xs-padding-vertical                : 4px;
+$btn-xs-padding-horizontal              : 10px;
+$btn-xs-font-size                       : 10px;
+$btn-xs-line-height                     : $line-height-small;
+$btn-xs-border-radius                   : $border-radius-small;
+
+/*--Btn outline--*/
+$btn-outline-color                      : #010101;
+$btn-outline-hover-color                : $white;
+$btn-outline-height                     : 36px;
+$btn-outline-padding 					: 0; 
+$btn-outline-bg                         : $nocolor;
+$btn-outline-hover-bg                   : $theme-color;
+$btn-outline-border                     : 2px solid $border-color;
+$btn-outline-border-hover               : 2px solid $nocolor;
+$btn-outline-font-size                  : 12px;
+$btn-outline-line-height                : 20px;
+$btn-outline-border-radius              : 0;
+$btn-outline-line-height 				: 34px;
+
+
+$btn-outline-sm-padding-vertical        : 8px;
+$btn-outline-sm-padding-horizontal      : 18px;
+$btn-outline-sm-font-size               : 11px;
+$btn-outline-sm-line-height             : 1.3;
+$btn-outline-sm-border-radius           : 3px;
+
+$btn-outline-xs-padding-vertical        : 5px;
+$btn-outline-xs-padding-horizontal      : 15px;
+$btn-outline-xs-font-size               : 11px;
+$btn-outline-xs-line-height             : 1.2;
+$btn-outline-xs-border-radius           : 3px;
+
+$btn-outline-lg-padding-vertical        : 21px;
+$btn-outline-lg-padding-horizontal      : 48px;
+$btn-outline-lg-font-size               : 14px;
+$btn-outline-lg-line-height             : 3;
+$btn-outline-lg-border-radius           : 4px;
+
+
+$btn-outline-inverse-color                      : $white;
+$btn-outline-inverse-hover-color                : $black;
+$btn-outline-inverse-height                     : 34px;
+$btn-outline-inverse-padding 					: 0px 10px;
+$btn-outline-inverse-bg                         : $theme-color;
+$btn-outline-inverse-hover-bg                   : $nocolor;
+$btn-outline-inverse-border                     : 2px solid $theme-color;
+$btn-outline-inverse-border-hover               : 2px solid $border-color;
+$btn-outline-inverse-font-size                  : 12px;
+$btn-outline-inverse-line-height                : 20px;
+$btn-outline-inverse-border-radius              : 0;
+$btn-outline-inverse-line-height 				: 1;

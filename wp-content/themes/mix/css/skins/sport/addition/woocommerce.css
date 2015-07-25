@@ -1,0 +1,87 @@
+/*
+Error: Undefined mixin 'box-shadow'.
+        on line 7 of E:/xampp/htdocs/wordpress/mix/wp-content/themes/mix/sass/skins/sport/addition/woocommerce.scss, in `box-shadow'
+        from line 7 of E:/xampp/htdocs/wordpress/mix/wp-content/themes/mix/sass/skins/sport/addition/woocommerce.scss
+
+2:     Product Grid CD skin
+3: \*------------------------------------*\/
+4: .product-grid{
+5: 	&.style-sport{
+6:         border: none;
+7:         @include box-shadow(0px 0px 3px #d2d2d2);
+8:         .image{
+9:             padding: 30px 30px 0;
+10:         }
+11:         .button-action{
+12:             > div{  
+
+Backtrace:
+E:/xampp/htdocs/wordpress/mix/wp-content/themes/mix/sass/skins/sport/addition/woocommerce.scss:7:in `box-shadow'
+E:/xampp/htdocs/wordpress/mix/wp-content/themes/mix/sass/skins/sport/addition/woocommerce.scss:7
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:332:in `block in visit_mixin'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/stack.rb:98:in `block in with_mixin'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/stack.rb:98:in `with_mixin'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:330:in `visit_mixin'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:152:in `visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:414:in `block (2 levels) in visit_rule'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:414:in `map'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:414:in `block in visit_rule'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:173:in `with_environment'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:412:in `visit_rule'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:152:in `visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:414:in `block (2 levels) in visit_rule'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:414:in `map'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:414:in `block in visit_rule'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:173:in `with_environment'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:412:in `visit_rule'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:152:in `visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:161:in `block in visit_children'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:173:in `with_environment'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:160:in `visit_children'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:180:in `visit_root'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:151:in `visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:8:in `visit'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/tree/root_node.rb:20:in `render'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/engine.rb:268:in `render'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.1/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.1/lib/compass/sass_compiler.rb:40:in `compile!'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.1/lib/compass/commands/update_project.rb:49:in `perform'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.1/lib/compass/commands/base.rb:18:in `execute'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.1/lib/compass/commands/project_base.rb:19:in `execute'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.1/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.1/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.1/bin/compass:30:in `block in <top (required)>'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.1/bin/compass:44:in `call'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-1.0.1/bin/compass:44:in `<top (required)>'
+C:/Ruby200-x64/bin/compass:23:in `load'
+C:/Ruby200-x64/bin/compass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined mixin 'box-shadow'.\A         on line 7 of E:/xampp/htdocs/wordpress/mix/wp-content/themes/mix/sass/skins/sport/addition/woocommerce.scss, in `box-shadow'\A         from line 7 of E:/xampp/htdocs/wordpress/mix/wp-content/themes/mix/sass/skins/sport/addition/woocommerce.scss\A \A 2:     Product Grid CD skin\A 3: \*------------------------------------*/\A 4: .product-grid{\A 5: 	&.style-sport{\A 6:         border: none;\A 7:         @include box-shadow(0px 0px 3px #d2d2d2);\A 8:         .image{\A 9:             padding: 30px 30px 0;\A 10:         }\A 11:         .button-action{\A 12:             > div{  "; }

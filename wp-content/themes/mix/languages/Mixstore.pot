@@ -1,0 +1,3947 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#. /Templates
+#. * @version     2.1.0
+#.
+#. Exit if accessed directly
+#: inc/core/widgets/menu_vertical.php:41 inc/core/widgets/posts.php:23
+#: woocommerce/global/quantity-input.php:13
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MixStore-project 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-12-22 14:42+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: comments.php:21
+msgid "0 Comment"
+msgstr "Inga kommentarer"
+
+#: comments.php:21 single.php:60
+msgid "1 Comment"
+msgstr "1 kommentar"
+
+#: comments.php:21 single.php:60
+msgid "% Comments"
+msgstr "% kommentarer"
+
+#: comments.php:34
+msgid "&larr; Older Comments"
+msgstr "&larr; äldre kommentarer"
+
+#: comments.php:35
+msgid "Newer Comments &rarr;"
+msgstr "Nyare kommentarer &rarr;"
+
+#: comments.php:40
+msgid "Comments are closed."
+msgstr "Kommentarsfunktion stängd."
+
+#: comments.php:48
+msgid "Leave a Comment"
+msgstr "Kommentera"
+
+#: comments.php:48
+msgid "<h4 class=\"title\">"
+msgstr ""
+
+#: comments.php:70
+msgid "Your email address will not be published."
+msgstr "Din e-postadress kommer inte publiseras."
+
+#: footer.php:94
+msgid "TOP"
+msgstr ""
+
+#. /GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html
+#. *
+#. * @website  http://www.wpopal.com
+#. * @support  http://www.wpopal.com/support/forum.html
+#.
+#: header-cd.php:44 header-gifts.php:44 header-mobile.php:44
+#: header-sport.php:44 header.php:44 inc/core/shortcodes/submenu.php:57
+#: inc/vc/theme.php:24
+msgid "Menu"
+msgstr "Meny"
+
+#: header-cd.php:93 header-gifts.php:92 header-mobile.php:89
+#: header-sport.php:92 header.php:93
+msgid "Settings"
+msgstr "Inställningar"
+
+#: header-cd.php:112 header-gifts.php:111 header-mobile.php:108
+#: header-sport.php:111 header.php:112
+msgid "Shopping Bag"
+msgstr "Varukorg"
+
+#: header-cd.php:123 header-gifts.php:122 header-mobile.php:122
+#: header-sport.php:122 header.php:123
+msgid "Welcome visitor you can"
+msgstr "Välkommen, du kan"
+
+#: header-cd.php:124 header-gifts.php:123 header-mobile.php:123
+#: header-sport.php:123 header.php:124
+msgid "login or create an account"
+msgstr "logga in eller skapa ett konto"
+
+#: header-cd.php:124 header-gifts.php:123 header-mobile.php:123
+#: header-sport.php:123 header.php:124
+msgid " login or create an account "
+msgstr " logga in eller skapa ett konto"
+
+#: header-cd.php:127 header-gifts.php:126 header-mobile.php:127
+#: header-sport.php:126 header.php:127
+msgid "Welcome "
+msgstr "Välkommen "
+
+#: header-cd.php:176 header-gifts.php:173 header-mobile.php:173
+#: header-sport.php:173 header.php:174
+msgid "Account"
+msgstr "Konto"
+
+#: inc/core/classes/metabox.php:2404
+msgid "Enable"
+msgstr "Anslut"
+
+#: inc/core/classes/metabox.php:2445
+msgid "Gallery image: "
+msgstr "Galleribild: "
+
+#: inc/core/classes/metabox.php:2448
+msgid "Add Media"
+msgstr "Lägg till media"
+
+#: inc/core/classes/metabox.php:2461
+msgid "Background color "
+msgstr "Bakgrundsfärg"
+
+#: inc/core/classes/plugin-activation.php:138
+msgid "Install Required Plugins"
+msgstr "Installera obligastoriska plugins"
+
+#: inc/core/classes/plugin-activation.php:139
+msgid "Install Plugins"
+msgstr "Installera plugins"
+
+#: inc/core/classes/plugin-activation.php:140
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Installerar plugin: %s"
+
+#: inc/core/classes/plugin-activation.php:141
+msgid "Something went wrong."
+msgstr "Någonting gick fel."
+
+#: inc/core/classes/plugin-activation.php:152
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/core/classes/plugin-activation.php:153
+msgid "Return to the dashboard"
+msgstr ""
+
+#: inc/core/classes/plugin-activation.php:154
+#: inc/core/classes/plugin-activation.php:1823
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/core/classes/plugin-activation.php:155
+#: inc/core/classes/plugin-activation.php:1521
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: inc/core/classes/plugin-activation.php:156
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/core/classes/plugin-activation.php:157
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/core/classes/plugin-activation.php:1068
+msgid "External Link"
+msgstr ""
+
+#: inc/core/classes/plugin-activation.php:1073
+msgid "Private Repository"
+msgstr ""
+
+#: inc/core/classes/plugin-activation.php:1076
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/core/classes/plugin-activation.php:1080
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/core/classes/plugin-activation.php:1083
+msgid "Required"
+msgstr ""
+
+#: inc/core/classes/plugin-activation.php:1083
+msgid "Recommended"
+msgstr ""
+
+#: inc/core/classes/plugin-activation.php:1086
+msgid "Not Installed"
+msgstr ""
+
+#: inc/core/classes/plugin-activation.php:1088
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/core/classes/plugin-activation.php:1258
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: inc/core/classes/plugin-activation.php:1274
+msgid "Plugin"
+msgstr ""
+
+#: inc/core/classes/plugin-activation.php:1275
+msgid "Source"
+msgstr ""
+
+#: inc/core/classes/plugin-activation.php:1276 inc/vc/woocommerce.php:200
+msgid "Type"
+msgstr ""
+
+#: inc/core/classes/plugin-activation.php:1277
+#: woocommerce/myaccount/my-orders.php:36
+msgid "Status"
+msgstr ""
+
+#: inc/core/classes/plugin-activation.php:1295
+msgid "Install"
+msgstr ""
+
+#: inc/core/classes/plugin-activation.php:1296
+msgid "Activate"
+msgstr ""
+
+#: inc/core/classes/plugin-activation.php:1806
+msgid "Install package not available."
+msgstr ""
+
+#: inc/core/classes/plugin-activation.php:1807
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: inc/core/classes/plugin-activation.php:1808
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: inc/core/classes/plugin-activation.php:1809
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: inc/core/classes/plugin-activation.php:1810
+msgid "Plugin install failed."
+msgstr ""
+
+#: inc/core/classes/plugin-activation.php:1811
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: inc/core/classes/plugin-activation.php:1822
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/core/classes/plugin-activation.php:1932
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/core/classes/plugin-activation.php:1933
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/core/classes/plugin-activation.php:1933
+#: inc/core/classes/plugin-activation.php:1942
+msgid "Show Details"
+msgstr ""
+
+#: inc/core/classes/plugin-activation.php:1933
+#: inc/core/classes/plugin-activation.php:1942
+msgid "Hide Details"
+msgstr ""
+
+#: inc/core/classes/plugin-activation.php:1934
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/core/classes/plugin-activation.php:1935
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/core/classes/plugin-activation.php:1939
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/core/classes/plugin-activation.php:1940
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/core/classes/plugin-activation.php:1941
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/core/classes/plugin-activation.php:1942
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/core/classes/plugin-activation.php:1943
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/core/classes/plugin-activation.php:1944
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/core/classes/plugin-activation.php:2035
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/core/classes/shortcodebase.php:181
+msgid "No file chosen"
+msgstr ""
+
+#: inc/core/classes/shortcodebase.php:184
+msgid "Upload"
+msgstr ""
+
+#: inc/core/classes/shortcodebase.php:186
+#: inc/core/megamenu/classes/megamenu-config.php:204
+#: woocommerce/compare.php:106
+msgid "Remove"
+msgstr ""
+
+#: inc/core/classes/shortcodebase.php:189
+msgid "Upgrade your version of WordPress for full media support."
+msgstr ""
+
+#: inc/core/classes/shortcodes.php:94
+msgid "No button for this"
+msgstr ""
+
+#: inc/core/classes/shortcodes.php:105
+msgid "No data for this"
+msgstr ""
+
+#: inc/core/functions/functions.php:73
+msgid " seconds ago"
+msgstr ""
+
+#: inc/core/functions/functions.php:79
+msgid " minutes ago"
+msgstr ""
+
+#: inc/core/functions/functions.php:85
+msgid " hours ago"
+msgstr ""
+
+#: inc/core/functions/functions.php:92
+msgid " days ago"
+msgstr ""
+
+#: inc/core/functions/functions.php:95
+msgid " weeks ago"
+msgstr ""
+
+#: inc/core/megamenu/classes/megamenu-config.php:79
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#: inc/core/megamenu/classes/megamenu-config.php:83
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: inc/core/megamenu/classes/megamenu-config.php:107
+msgid "Move up"
+msgstr ""
+
+#: inc/core/megamenu/classes/megamenu-config.php:120
+msgid "Move down"
+msgstr ""
+
+#: inc/core/megamenu/classes/megamenu-config.php:122
+#: inc/core/megamenu/classes/megamenu-config.php:124
+msgid "Edit Menu Item"
+msgstr ""
+
+#: inc/core/megamenu/classes/megamenu-config.php:133
+msgid "URL"
+msgstr ""
+
+#: inc/core/megamenu/classes/megamenu-config.php:140
+msgid "Navigation Label"
+msgstr ""
+
+#: inc/core/megamenu/classes/megamenu-config.php:146
+msgid "Title Attribute"
+msgstr ""
+
+#: inc/core/megamenu/classes/megamenu-config.php:153
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: inc/core/megamenu/classes/megamenu-config.php:158
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: inc/core/megamenu/classes/megamenu-config.php:164
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: inc/core/megamenu/classes/megamenu-config.php:170
+#: inc/core/widgets/contact-info.php:16 inc/vc/theme.php:95
+#: inc/vc/theme.php:230 inc/vc/theme.php:1097 inc/vc/theme.php:1193
+msgid "Description"
+msgstr ""
+
+#: inc/core/megamenu/classes/megamenu-config.php:172
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: inc/core/megamenu/classes/megamenu-config.php:191
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: inc/core/megamenu/classes/megamenu-config.php:205
+#: woocommerce/myaccount/my-orders.php:77
+msgid "Cancel"
+msgstr ""
+
+#: inc/core/megamenu/templates/editor-vertical.php:27
+msgid "Vertical Megamenu Editor"
+msgstr ""
+
+#: inc/core/megamenu/templates/editor-vertical.php:31
+#: inc/core/megamenu/templates/editor.php:32
+msgid "Menu Group"
+msgstr ""
+
+#: inc/core/megamenu/templates/editor.php:28
+msgid "Megamenu Editor"
+msgstr ""
+
+#: inc/core/megamenu/templates/editor.php:66
+msgid "Close"
+msgstr ""
+
+#: inc/core/megamenu/templates/editor.php:194
+msgid "Column Width"
+msgstr ""
+
+#: inc/core/shortcodes/accordion.php:40 inc/core/shortcodes/accordion.php:57
+msgid "Input 1"
+msgstr ""
+
+#: inc/core/shortcodes/accordion.php:50
+msgid "Input 2"
+msgstr ""
+
+#: inc/core/shortcodes/blog_tab.php:41
+msgid "Category Parent"
+msgstr ""
+
+#: inc/core/shortcodes/blog_tab.php:44 inc/core/shortcodes/image.php:33
+msgid "Put Your Image Link Here"
+msgstr ""
+
+#: inc/core/shortcodes/blog_tab.php:50 inc/core/shortcodes/gmap.php:42
+msgid "Count Item"
+msgstr ""
+
+#: inc/core/shortcodes/blog_tab.php:59 inc/core/shortcodes/content.php:39
+#: inc/core/shortcodes/gallery.php:39 inc/core/shortcodes/image.php:39
+#: inc/core/shortcodes/raw_html.php:40 inc/core/shortcodes/recent_post.php:48
+#: inc/core/shortcodes/sidebar.php:37 inc/core/shortcodes/submenu.php:67
+msgid "Addition Class"
+msgstr ""
+
+#: inc/core/shortcodes/blog_tab.php:62 inc/core/shortcodes/content.php:42
+#: inc/core/shortcodes/image.php:42 inc/core/shortcodes/raw_html.php:43
+#: inc/core/shortcodes/recent_post.php:51 inc/core/shortcodes/sidebar.php:40
+#: inc/core/shortcodes/submenu.php:70
+msgid "Using to make own style"
+msgstr ""
+
+#: inc/core/shortcodes/content.php:30 inc/vc/theme.php:329
+msgid "Content"
+msgstr ""
+
+#: inc/core/shortcodes/content.php:33
+msgid "Put Content Here"
+msgstr ""
+
+#: inc/core/shortcodes/gallery.php:30 inc/core/shortcodes/recent_post.php:29
+msgid "Limited Post"
+msgstr ""
+
+#: inc/core/shortcodes/gmap.php:51
+msgid "Map Height"
+msgstr ""
+
+#: inc/core/shortcodes/gmap.php:59 inc/core/shortcodes/gmap.php:73
+msgid "Map type"
+msgstr ""
+
+#: inc/core/shortcodes/image.php:30
+msgid "Image Link"
+msgstr ""
+
+#: inc/core/shortcodes/products.php:41 inc/core/shortcodes/submenu.php:42
+#: inc/core/widgets/contact-info.php:15 inc/vc/theme.php:18
+#: inc/vc/theme.php:64 inc/vc/theme.php:150 inc/vc/theme.php:210
+#: inc/vc/theme.php:280 inc/vc/theme.php:372 inc/vc/theme.php:474
+#: inc/vc/theme.php:567 inc/vc/theme.php:642 inc/vc/theme.php:725
+#: inc/vc/theme.php:792 inc/vc/theme.php:1158 inc/vc/theme.php:1221
+#: inc/vc/woocommerce.php:172 inc/vc/woocommerce.php:247
+#: inc/vc/woocommerce.php:321 inc/vc/woocommerce.php:356
+msgid "Title"
+msgstr ""
+
+#: inc/core/shortcodes/products.php:73 inc/vc/woocommerce.php:79
+#: inc/vc/woocommerce.php:222 inc/vc/woocommerce.php:289
+msgid "Number of products to show"
+msgstr ""
+
+#: inc/core/shortcodes/raw_html.php:31
+msgid "Raw HTML Code"
+msgstr ""
+
+#: inc/core/shortcodes/raw_html.php:34
+msgid "Put your html code here"
+msgstr ""
+
+#: inc/core/shortcodes/recent_post.php:38
+msgid "Display Date"
+msgstr ""
+
+#: inc/core/shortcodes/sidebar.php:30
+msgid "Sidebar"
+msgstr ""
+
+#: inc/core/shortcodes/sidebar.php:33
+msgid "Display all widgets on selected sidebar"
+msgstr ""
+
+#: inc/core/shortcodes/submenu.php:45
+msgid "Put Title Here"
+msgstr ""
+
+#: inc/core/shortcodes/submenu.php:60
+msgid "Select Menu"
+msgstr ""
+
+#: inc/core/shortcodes/tpl/blog_tab.php:64
+#: templates/post/_categories-list.php:29 templates/post/_single.php:45
+#: templates/shortcodes/blog_tab.php:60
+msgid " 0 "
+msgstr ""
+
+#: inc/core/shortcodes/tpl/blog_tab.php:64
+#: templates/post/_categories-list.php:29 templates/post/_single.php:45
+#: templates/shortcodes/blog_tab.php:60
+msgid " 1 "
+msgstr ""
+
+#: inc/core/shortcodes/tpl/blog_tab.php:64
+#: templates/post/_categories-list.php:29 templates/post/_single.php:45
+#: templates/shortcodes/blog_tab.php:60
+msgid " % "
+msgstr ""
+
+#: inc/core/types/brands.php:18 inc/core/types/brands.php:19
+msgid "Brand"
+msgstr ""
+
+#: inc/core/types/brands.php:20 inc/core/types/brands.php:21
+msgid "Add New Brand"
+msgstr ""
+
+#: inc/core/types/brands.php:22
+msgid "Edit Brand"
+msgstr ""
+
+#: inc/core/types/brands.php:23
+msgid "New Brand"
+msgstr ""
+
+#: inc/core/types/brands.php:24
+msgid "View Brand"
+msgstr ""
+
+#: inc/core/types/brands.php:25
+msgid "Search Brands"
+msgstr ""
+
+#: inc/core/types/brands.php:26
+msgid "No Brands found"
+msgstr ""
+
+#: inc/core/types/brands.php:27
+msgid "No Brands found in Trash"
+msgstr ""
+
+#: inc/core/types/brands.php:28
+msgid "Parent Brand:"
+msgstr ""
+
+#: inc/core/types/brands.php:29
+msgid "Opal Brands"
+msgstr ""
+
+#: inc/core/types/faq.php:23
+msgid "Opal FAQs"
+msgstr ""
+
+#: inc/core/types/footer.php:18 inc/core/types/footer.php:19
+msgid "Footer"
+msgstr ""
+
+#: inc/core/types/footer.php:20 inc/core/types/footer.php:21
+msgid "Add New Footer"
+msgstr ""
+
+#: inc/core/types/footer.php:22
+msgid "Edit Footer"
+msgstr ""
+
+#: inc/core/types/footer.php:23
+msgid "New Footer"
+msgstr ""
+
+#: inc/core/types/footer.php:24
+msgid "View Footer"
+msgstr ""
+
+#: inc/core/types/footer.php:25
+msgid "Search Footers"
+msgstr ""
+
+#: inc/core/types/footer.php:26
+msgid "No Footers found"
+msgstr ""
+
+#: inc/core/types/footer.php:27
+msgid "No Footers found in Trash"
+msgstr ""
+
+#: inc/core/types/footer.php:28
+msgid "Parent Footer:"
+msgstr ""
+
+#: inc/core/types/footer.php:29
+msgid "Footers"
+msgstr ""
+
+#: inc/core/types/portfolio.php:17
+msgid "Portfolios"
+msgstr ""
+
+#: inc/core/types/portfolio.php:18
+msgid "Portfolio"
+msgstr ""
+
+#: inc/core/types/portfolio.php:19 inc/core/types/portfolio.php:20
+msgid "Add New Portfolio"
+msgstr ""
+
+#: inc/core/types/portfolio.php:21
+msgid "Edit Portfolio"
+msgstr ""
+
+#: inc/core/types/portfolio.php:22
+msgid "New Portfolio"
+msgstr ""
+
+#: inc/core/types/portfolio.php:23
+msgid "View Portfolio"
+msgstr ""
+
+#: inc/core/types/portfolio.php:24
+msgid "Search Portfolios"
+msgstr ""
+
+#: inc/core/types/portfolio.php:25
+msgid "No Portfolios found"
+msgstr ""
+
+#: inc/core/types/portfolio.php:26
+msgid "No Portfolios found in Trash"
+msgstr ""
+
+#: inc/core/types/portfolio.php:27
+msgid "Parent Portfolio:"
+msgstr ""
+
+#: inc/core/types/portfolio.php:28
+msgid "Opal Portfolios"
+msgstr ""
+
+#: inc/core/types/portfolio.php:57 inc/core/types/portfolio.php:67
+msgid "Categories"
+msgstr ""
+
+#: inc/core/types/portfolio.php:58 inc/vc/woocommerce.php:66
+#: inc/vc/woocommerce.php:128
+msgid "Category"
+msgstr ""
+
+#: inc/core/types/portfolio.php:59
+msgid "Search Category"
+msgstr ""
+
+#: inc/core/types/portfolio.php:60
+msgid "All Categories"
+msgstr ""
+
+#: inc/core/types/portfolio.php:61
+msgid "Parent Category"
+msgstr ""
+
+#: inc/core/types/portfolio.php:62
+msgid "Parent Category:"
+msgstr ""
+
+#: inc/core/types/portfolio.php:63
+msgid "Edit Category"
+msgstr ""
+
+#: inc/core/types/portfolio.php:64
+msgid "Update Category"
+msgstr ""
+
+#: inc/core/types/portfolio.php:65
+msgid "Add New Category"
+msgstr ""
+
+#: inc/core/types/portfolio.php:66
+msgid "New Category Name"
+msgstr ""
+
+#: inc/core/types/sliders.php:6
+msgid "Sliders"
+msgstr ""
+
+#: inc/core/types/sliders.php:7
+msgid "Slider"
+msgstr ""
+
+#: inc/core/types/sliders.php:8 inc/core/types/sliders.php:9
+msgid "Add New Slider"
+msgstr ""
+
+#: inc/core/types/sliders.php:10
+msgid "Edit Slider"
+msgstr ""
+
+#: inc/core/types/sliders.php:11
+msgid "New Slider"
+msgstr ""
+
+#: inc/core/types/sliders.php:12
+msgid "View Slider"
+msgstr ""
+
+#: inc/core/types/sliders.php:13
+msgid "Search Slider"
+msgstr ""
+
+#: inc/core/types/sliders.php:14
+msgid "No Slider found"
+msgstr ""
+
+#: inc/core/types/sliders.php:15
+msgid "No Slider found in Trash"
+msgstr ""
+
+#: inc/core/types/sliders.php:16
+msgid "Parent Slider:"
+msgstr ""
+
+#: inc/core/types/sliders.php:17
+msgid "Opal Sliders"
+msgstr ""
+
+#: inc/core/types/sliders.php:43 inc/core/types/sliders.php:53
+msgid "Slider groups"
+msgstr ""
+
+#: inc/core/types/sliders.php:44
+msgid "Slider group"
+msgstr ""
+
+#: inc/core/types/sliders.php:45
+msgid "Search Slider groups"
+msgstr ""
+
+#: inc/core/types/sliders.php:46
+msgid "All Slider groups"
+msgstr ""
+
+#: inc/core/types/sliders.php:47
+msgid "Parent Slider group"
+msgstr ""
+
+#: inc/core/types/sliders.php:48
+msgid "Parent Slider group:"
+msgstr ""
+
+#: inc/core/types/sliders.php:49
+msgid "Edit Slider group"
+msgstr ""
+
+#: inc/core/types/sliders.php:50
+msgid "Update Slider group"
+msgstr ""
+
+#: inc/core/types/sliders.php:51
+msgid "Add New Slider group"
+msgstr ""
+
+#: inc/core/types/sliders.php:52
+msgid "New Slider group"
+msgstr ""
+
+#: inc/core/types/testimonials.php:18 inc/core/types/testimonials.php:19
+msgid "Testimonial"
+msgstr ""
+
+#: inc/core/types/testimonials.php:20 inc/core/types/testimonials.php:21
+msgid "Add New Testimonial"
+msgstr ""
+
+#: inc/core/types/testimonials.php:22
+msgid "Edit Testimonial"
+msgstr ""
+
+#: inc/core/types/testimonials.php:23
+msgid "New Testimonial"
+msgstr ""
+
+#: inc/core/types/testimonials.php:24
+msgid "View Testimonial"
+msgstr ""
+
+#: inc/core/types/testimonials.php:25
+msgid "Search Testimonials"
+msgstr ""
+
+#: inc/core/types/testimonials.php:26
+msgid "No Testimonials found"
+msgstr ""
+
+#: inc/core/types/testimonials.php:27
+msgid "No Testimonials found in Trash"
+msgstr ""
+
+#: inc/core/types/testimonials.php:28
+msgid "Parent Testimonial:"
+msgstr ""
+
+#: inc/core/types/testimonials.php:29
+msgid "Opal Testimonials"
+msgstr ""
+
+#: inc/core/types/video.php:18 inc/core/types/video.php:19
+msgid "Video"
+msgstr ""
+
+#: inc/core/types/video.php:20 inc/core/types/video.php:21
+msgid "Add New Video"
+msgstr ""
+
+#: inc/core/types/video.php:22
+msgid "Edit Video"
+msgstr ""
+
+#: inc/core/types/video.php:23
+msgid "New Video"
+msgstr ""
+
+#: inc/core/types/video.php:24
+msgid "View Video"
+msgstr ""
+
+#: inc/core/types/video.php:25
+msgid "Search Videos"
+msgstr ""
+
+#: inc/core/types/video.php:26
+msgid "No Videos found"
+msgstr ""
+
+#: inc/core/types/video.php:27
+msgid "No Videos found in Trash"
+msgstr ""
+
+#: inc/core/types/video.php:28
+msgid "Parent Video:"
+msgstr ""
+
+#: inc/core/types/video.php:29
+msgid "Opal Videos"
+msgstr ""
+
+#: inc/core/widgets/contact-info.php:17
+msgid "Company"
+msgstr ""
+
+#: inc/core/widgets/contact-info.php:18
+msgid "Country"
+msgstr ""
+
+#: inc/core/widgets/contact-info.php:19
+msgid "Locality"
+msgstr ""
+
+#: inc/core/widgets/contact-info.php:20
+msgid "Region"
+msgstr ""
+
+#: inc/core/widgets/contact-info.php:21
+msgid "Street"
+msgstr ""
+
+#: inc/core/widgets/contact-info.php:22
+msgid "Working Days"
+msgstr ""
+
+#: inc/core/widgets/contact-info.php:23
+msgid "Working Hours"
+msgstr ""
+
+#: inc/core/widgets/contact-info.php:24 inc/vc/theme.php:401
+#: inc/vc/theme.php:488
+msgid "Phone"
+msgstr ""
+
+#: inc/core/widgets/contact-info.php:25
+msgid "Mobile"
+msgstr ""
+
+#: inc/core/widgets/contact-info.php:26
+msgid "Fax"
+msgstr ""
+
+#: inc/core/widgets/contact-info.php:27
+msgid "Skype"
+msgstr ""
+
+#: inc/core/widgets/contact-info.php:28
+msgid "Email Address"
+msgstr ""
+
+#: inc/core/widgets/contact-info.php:29 inc/vc/theme.php:509
+#: woocommerce/single-product-reviews.php:64
+msgid "Email"
+msgstr ""
+
+#: inc/core/widgets/contact-info.php:30
+msgid "Website URL"
+msgstr ""
+
+#: inc/core/widgets/contact-info.php:31
+msgid "Website"
+msgstr ""
+
+#: inc/core/widgets/contact-info.php:34
+msgid "Add contact information."
+msgstr ""
+
+#: inc/core/widgets/contact-info.php:38
+msgid "WPO: Contact Info"
+msgstr ""
+
+#: inc/core/widgets/contact-info.php:100
+msgid "Contact Info"
+msgstr ""
+
+#: inc/core/widgets/facebook_like.php:21
+msgid "WPO Facebook Like Box"
+msgstr ""
+
+#: inc/core/widgets/facebook_like.php:23
+msgid "Adds support for Facebook Like Box. "
+msgstr ""
+
+#: inc/core/widgets/featured_post.php:23
+msgid "WPO Featured Post Widget"
+msgstr ""
+
+#: inc/core/widgets/featured_post.php:66 inc/core/widgets/recent_post.php:60
+msgid "Type:"
+msgstr ""
+
+#: inc/core/widgets/featured_post.php:78 inc/core/widgets/top_rate.php:122
+#: inc/core/widgets/twitter.php:138
+msgid "Limit:"
+msgstr ""
+
+#: inc/core/widgets/flickr.php:21
+msgid "WPO Flickr"
+msgstr ""
+
+#: inc/core/widgets/flickr.php:23
+msgid "The most recent photos from flickr."
+msgstr ""
+
+#: inc/core/widgets/menu_vertical.php:21
+msgid "WPO Menu Vertical Widget"
+msgstr ""
+
+#: inc/core/widgets/menu_vertical.php:23
+msgid "Show Menu Vertical"
+msgstr ""
+
+#: inc/core/widgets/menu_vertical.php:57 inc/core/widgets/posts.php:50
+#: inc/core/widgets/recent_comment.php:52 inc/core/widgets/recent_post.php:46
+#: inc/core/widgets/twitter.php:130 inc/core/widgets/video.php:52
+msgid "Title:"
+msgstr ""
+
+#: inc/core/widgets/posts.php:21
+msgid "WPO Posts Widget"
+msgstr ""
+
+#: inc/core/widgets/posts.php:64
+msgid "Posts:"
+msgstr ""
+
+#: inc/core/widgets/recent_comment.php:21
+msgid "WPO Recent Comments Widget"
+msgstr ""
+
+#: inc/core/widgets/recent_comment.php:23
+msgid "Show list of recent comments"
+msgstr ""
+
+#: inc/core/widgets/recent_comment.php:41
+msgid "Latest Post"
+msgstr ""
+
+#: inc/core/widgets/recent_comment.php:65
+msgid "Num Comments:"
+msgstr ""
+
+#: inc/core/widgets/recent_post.php:21
+msgid "WPO Recent Posts Widget"
+msgstr ""
+
+#: inc/core/widgets/recent_post.php:23
+msgid "Show list of recent post"
+msgstr ""
+
+#: inc/core/widgets/recent_post.php:72
+msgid "Num Posts:"
+msgstr ""
+
+#: inc/core/widgets/sliders.php:20
+msgid "Description "
+msgstr ""
+
+#: inc/core/widgets/sliders.php:22
+msgid "WPO Sliders Widget"
+msgstr ""
+
+#: inc/core/widgets/socials.php:21
+msgid "WPO Socials"
+msgstr ""
+
+#: inc/core/widgets/socials.php:23
+msgid "Socials for website."
+msgstr ""
+
+#: inc/core/widgets/socials_siderbar.php:21
+msgid "WPO Socials Siderbar"
+msgstr ""
+
+#: inc/core/widgets/socials_siderbar.php:23
+msgid "Share Socials Siderbar for website."
+msgstr ""
+
+#: inc/core/widgets/socials_siderbar.php:96
+msgid "Share services social:"
+msgstr ""
+
+#: inc/core/widgets/tabs.php:21
+msgid "WPO Tabs Widget"
+msgstr ""
+
+#: inc/core/widgets/tabs.php:23
+msgid "Popular posts, recent post and comments."
+msgstr ""
+
+#: inc/core/widgets/top_rate.php:23
+msgid "WPO Top Rate Widget"
+msgstr ""
+
+#: inc/core/widgets/top_rate.php:25
+msgid "The highest rated posts on your site"
+msgstr ""
+
+#: inc/core/widgets/top_rate.php:35 inc/vc/class/all_products.php:21
+msgid "Top Rated"
+msgstr ""
+
+#: inc/core/widgets/top_rate.php:85
+msgid "Get most rated:"
+msgstr ""
+
+#: inc/core/widgets/top_rate.php:94
+msgid "Sort by:"
+msgstr ""
+
+#: inc/core/widgets/top_rate.php:96
+msgid "Overall bayesian rating (score)"
+msgstr ""
+
+#: inc/core/widgets/top_rate.php:97
+msgid "Average rating"
+msgstr ""
+
+#: inc/core/widgets/top_rate.php:98
+msgid "Number of votes"
+msgstr ""
+
+#: inc/core/widgets/top_rate.php:105
+msgid "Descending"
+msgstr ""
+
+#: inc/core/widgets/top_rate.php:110
+msgid "Ascending"
+msgstr ""
+
+#: inc/core/widgets/top_rate.php:115
+msgid "Ignore posts older than:"
+msgstr ""
+
+#: inc/core/widgets/top_rate.php:116
+msgid "days"
+msgstr ""
+
+#: inc/core/widgets/top_rate.php:118
+msgid "(0 to ignore date)"
+msgstr ""
+
+#: inc/core/widgets/twitter.php:18
+msgid "Latest Twitter widget "
+msgstr ""
+
+#: inc/core/widgets/twitter.php:22
+msgid "WPO Twitter Widget"
+msgstr ""
+
+#: inc/core/widgets/twitter.php:105
+msgid "Latest tweets."
+msgstr ""
+
+#: inc/core/widgets/twitter.php:106
+msgid "Leotheme"
+msgstr ""
+
+#: inc/core/widgets/twitter.php:125 inc/customfield/portfolio.php:65
+#: inc/vc/theme.php:317
+msgid "Yes"
+msgstr ""
+
+#: inc/core/widgets/twitter.php:126 inc/customfield/portfolio.php:66
+#: inc/vc/pagebuilder.php:148 inc/vc/theme.php:317
+msgid "No"
+msgstr ""
+
+#: inc/core/widgets/twitter.php:134
+msgid "Twitter Username:"
+msgstr ""
+
+#: inc/core/widgets/twitter.php:142
+msgid "Twitter Id:"
+msgstr ""
+
+#: inc/core/widgets/twitter.php:146
+msgid "Border Color:"
+msgstr ""
+
+#: inc/core/widgets/twitter.php:151
+msgid "Link Color:"
+msgstr ""
+
+#: inc/core/widgets/twitter.php:156
+msgid "Text Color:"
+msgstr ""
+
+#: inc/core/widgets/twitter.php:161
+msgid "Name Color:"
+msgstr ""
+
+#: inc/core/widgets/twitter.php:166
+msgid "Mail Color:"
+msgstr ""
+
+#: inc/core/widgets/twitter.php:171
+msgid "Show background"
+msgstr ""
+
+#: inc/core/widgets/twitter.php:180
+msgid "Show Replies"
+msgstr ""
+
+#: inc/core/widgets/twitter.php:189
+msgid "Show Header"
+msgstr ""
+
+#: inc/core/widgets/twitter.php:198
+msgid "Show Footer"
+msgstr ""
+
+#: inc/core/widgets/twitter.php:207
+msgid "Show Border"
+msgstr ""
+
+#: inc/core/widgets/twitter.php:216
+msgid "Show Scrollbar"
+msgstr ""
+
+#: inc/core/widgets/video.php:20
+msgid "WPO Featured Video Widget"
+msgstr ""
+
+#: inc/core/widgets/video.php:22
+msgid "Show Featured video"
+msgstr ""
+
+#: inc/core/widgets/video.php:58
+msgid "Video link:"
+msgstr ""
+
+#: inc/core/widgets/video.php:62
+msgid ""
+"Support video from Youtube and Vimeo link. Ex: https://www.youtube.com/watch?"
+"v=Drei_jt2kos"
+msgstr ""
+
+#: inc/core/widgets/video.php:66
+msgid "Video name:"
+msgstr ""
+
+#: inc/core/widgets/video.php:72
+msgid "Video width:"
+msgstr ""
+
+#. /GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html
+#. *
+#. * @website  http://www.wpopal.com
+#. * @support  http://www.wpopal.com/support/forum.html
+#.
+#. $object = new WPO_Template();
+#: inc/customfield/page-advanced.php:34
+msgid "Blog Default"
+msgstr ""
+
+#: inc/customfield/page-advanced.php:35
+msgid "Blog Masonry"
+msgstr ""
+
+#: inc/customfield/page-advanced.php:36
+msgid "Blog List"
+msgstr ""
+
+#: inc/customfield/page-advanced.php:44 inc/customfield/page-advanced.php:54
+#: inc/customfield/page.php:82
+msgid "Use Global"
+msgstr ""
+
+#: inc/customfield/page-advanced.php:45 inc/customfield/page-advanced.php:55
+msgid "Skin 1"
+msgstr ""
+
+#: inc/customfield/page-advanced.php:46 inc/customfield/page-advanced.php:56
+msgid "Skin 2"
+msgstr ""
+
+#: inc/customfield/page.php:20 inc/customfield/portfolio.php:20
+msgid "Page Layout:"
+msgstr ""
+
+#: inc/customfield/page.php:30 inc/customfield/portfolio.php:30
+#: inc/customizer/customizer-custom-classes.php:74
+msgid "Fullwidth"
+msgstr ""
+
+#: inc/customfield/page.php:31 inc/customfield/portfolio.php:31
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/customfield/page.php:32 inc/customfield/portfolio.php:32
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/customfield/page.php:33 inc/customfield/portfolio.php:33
+msgid "Left & Right Sidebar"
+msgstr ""
+
+#: inc/customfield/page.php:34 inc/customfield/portfolio.php:34
+msgid "Left & Left Sidebar"
+msgstr ""
+
+#: inc/customfield/page.php:35 inc/customfield/portfolio.php:35
+msgid "Right & Right Sidebar"
+msgstr ""
+
+#: inc/customfield/page.php:41 inc/customfield/portfolio.php:41
+msgid "Left Sidebar:"
+msgstr ""
+
+#: inc/customfield/page.php:43 inc/customfield/page.php:54
+#: inc/customfield/portfolio.php:43 inc/customfield/portfolio.php:54
+msgid "--Please Select Sidebar--"
+msgstr ""
+
+#: inc/customfield/page.php:52 inc/customfield/portfolio.php:52
+msgid "Right Sidebar:"
+msgstr ""
+
+#: inc/customfield/page.php:63
+msgid "Show Breadcrumb:"
+msgstr ""
+
+#: inc/customfield/page.php:71
+msgid "Show Title:"
+msgstr ""
+
+#: inc/customfield/page.php:80
+msgid "Header Skin:"
+msgstr ""
+
+#: inc/customfield/portfolio.php:63
+msgid "Display thumbnail:"
+msgstr ""
+
+#: inc/customizer/blog.php:9
+msgid "Blog"
+msgstr ""
+
+#: inc/customizer/blog.php:10 inc/customizer/woocommerce.php:12
+msgid "Make default setting for page, general"
+msgstr ""
+
+#: inc/customizer/blog.php:21 inc/customizer/woocommerce.php:23
+msgid "Layout Setting"
+msgstr ""
+
+#: inc/customizer/blog.php:37 inc/customizer/woocommerce.php:39
+msgid "Archive Layout"
+msgstr ""
+
+#: inc/customizer/blog.php:56 inc/customizer/woocommerce.php:58
+msgid "Archive Left Sidebar"
+msgstr ""
+
+#: inc/customizer/blog.php:72 inc/customizer/woocommerce.php:74
+msgid "Archive Right Sidebar"
+msgstr ""
+
+#: inc/customizer/blog.php:88
+msgid "Single Blog Layout"
+msgstr ""
+
+#: inc/customizer/blog.php:103
+msgid "Single blog Left Sidebar"
+msgstr ""
+
+#: inc/customizer/blog.php:117
+msgid "Single blog Right Sidebar"
+msgstr ""
+
+#: inc/customizer/blog.php:129 inc/customizer/woocommerce.php:130
+msgid "General Setting"
+msgstr ""
+
+#: inc/customizer/blog.php:145
+msgid "Show title"
+msgstr ""
+
+#: inc/customizer/blog.php:161
+msgid "Show breadcrumb"
+msgstr ""
+
+#: inc/customizer/blog.php:174
+msgid "Single post Setting"
+msgstr ""
+
+#: inc/customizer/blog.php:190
+msgid "Show share post"
+msgstr ""
+
+#: inc/customizer/blog.php:206
+msgid "Show related post"
+msgstr ""
+
+#: inc/customizer/blog.php:221
+msgid "Number Of post to show"
+msgstr ""
+
+#: inc/customizer/blog.php:225
+msgid "2 posts"
+msgstr ""
+
+#: inc/customizer/blog.php:226
+msgid "3 posts"
+msgstr ""
+
+#: inc/customizer/blog.php:227
+msgid "4 posts"
+msgstr ""
+
+#: inc/customizer/blog.php:228
+msgid "6 posts"
+msgstr ""
+
+#: inc/customizer/customizer-custom-classes.php:31
+msgid ""
+"Click Live Customizing Theme to create custom-theme-profiles and they will "
+"be listed in above dropdown box. You select one profile theme to apply for "
+"your site\n"
+"!important: All theme profiles are stored in folder YOURTHEME/css/customze, "
+"it need permission 0755 to put files inside"
+msgstr ""
+
+#: inc/customizer/customizer-custom-classes.php:33
+msgid "Create Profile Now"
+msgstr ""
+
+#: inc/customizer/customizer-custom-classes.php:75
+msgid "Left - Main Sidebar"
+msgstr ""
+
+#: inc/customizer/customizer-custom-classes.php:76
+msgid "Main - Right Sidebar"
+msgstr ""
+
+#: inc/customizer/customizer-custom-classes.php:77
+msgid "Left - Main - Right Sidebar"
+msgstr ""
+
+#: inc/customizer/customizer-custom-classes.php:78
+msgid "Left - Right - Main Sidebar"
+msgstr ""
+
+#: inc/customizer/customizer-custom-classes.php:79
+msgid "Main - Right - Left Sidebar"
+msgstr ""
+
+#: inc/customizer/customizer-custom-classes.php:127
+msgid "Select"
+msgstr ""
+
+#: inc/customizer/customizer-custom-classes.php:156
+#: inc/customizer/function.php:22
+msgid "Default"
+msgstr ""
+
+#: inc/customizer/function.php:36
+msgid "No Use"
+msgstr ""
+
+#: inc/customizer/theme.php:12
+msgid "General Settings"
+msgstr ""
+
+#: inc/customizer/theme.php:13
+msgid "Website General Settings"
+msgstr ""
+
+#: inc/customizer/theme.php:28
+msgid "Site Title"
+msgstr ""
+
+#: inc/customizer/theme.php:42
+msgid "Tagline"
+msgstr ""
+
+#: inc/customizer/theme.php:57
+msgid "Favicon"
+msgstr ""
+
+#: inc/customizer/theme.php:74
+msgid "Show Title & Tagline"
+msgstr ""
+
+#: inc/customizer/theme.php:92
+msgid "Logo"
+msgstr ""
+
+#: inc/customizer/theme.php:109
+msgid "Payment Logo"
+msgstr ""
+
+#: inc/customizer/theme.php:123
+msgid "Copyright text"
+msgstr ""
+
+#: inc/customizer/theme.php:134
+msgid "Header Settings"
+msgstr ""
+
+#: inc/customizer/theme.php:136
+msgid "Setting header your theme."
+msgstr ""
+
+#: inc/customizer/theme.php:149
+msgid "Enabal languague"
+msgstr ""
+
+#: inc/customizer/theme.php:165
+msgid "Enable currency"
+msgstr ""
+
+#: inc/customizer/theme.php:180
+msgid "Enable Mini Basket"
+msgstr ""
+
+#: inc/customizer/theme.php:198
+msgid "Themes And Layouts Setting"
+msgstr ""
+
+#: inc/customizer/theme.php:210
+msgid "Default Theme"
+msgstr ""
+
+#: inc/customizer/theme.php:224
+msgid "Header Layout Style"
+msgstr ""
+
+#: inc/customizer/theme.php:239
+msgid "Custom Theme Profile"
+msgstr ""
+
+#: inc/customizer/theme.php:257
+msgid "Vertical Megamenu"
+msgstr ""
+
+#: inc/customizer/theme.php:274
+msgid "Sticky Top Bar"
+msgstr ""
+
+#: inc/customizer/theme.php:288
+msgid "Megamenu Animation"
+msgstr ""
+
+#: inc/customizer/theme.php:302
+msgid "Megamenu Duration"
+msgstr ""
+
+#: inc/customizer/theme.php:313
+msgid "Front Page Settings"
+msgstr ""
+
+#: inc/customizer/theme.php:315 inc/customizer/theme.php:387
+msgid "Your theme supports a static front page."
+msgstr ""
+
+#: inc/customizer/theme.php:345
+msgid "Front page displays"
+msgstr ""
+
+#: inc/customizer/theme.php:349
+msgid "Your latest posts"
+msgstr ""
+
+#: inc/customizer/theme.php:350
+msgid "A static page"
+msgstr ""
+
+#: inc/customizer/theme.php:361 inc/customizer/woocommerce.php:292
+msgid "Front page"
+msgstr ""
+
+#: inc/customizer/theme.php:374
+msgid "Posts page"
+msgstr ""
+
+#: inc/customizer/theme.php:385
+msgid "Pages Settings"
+msgstr ""
+
+#: inc/customizer/theme.php:400 inc/customizer/theme.php:415
+msgid "404 Page"
+msgstr ""
+
+#: inc/customizer/theme.php:423
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/customizer/theme.php:425
+msgid "Your theme supports a footer builder."
+msgstr ""
+
+#: inc/customizer/theme.php:429
+msgid "Footer Styles Builder"
+msgstr ""
+
+#: inc/customizer/woocommerce.php:11
+msgid "Woocommerce"
+msgstr ""
+
+#: inc/customizer/woocommerce.php:90
+msgid "Product Detail Layout"
+msgstr ""
+
+#: inc/customizer/woocommerce.php:105
+msgid "Product Detail Left Sidebar"
+msgstr ""
+
+#: inc/customizer/woocommerce.php:119
+msgid "Product Detail Right Sidebar"
+msgstr ""
+
+#: inc/customizer/woocommerce.php:146
+msgid "Enable QuickView"
+msgstr ""
+
+#: inc/customizer/woocommerce.php:164
+msgid "Enable Swap Image"
+msgstr ""
+
+#: inc/customizer/woocommerce.php:180
+msgid "Enable Adding Cart Notification"
+msgstr ""
+
+#: inc/customizer/woocommerce.php:194
+msgid "Text add cart success"
+msgstr ""
+
+#: inc/customizer/woocommerce.php:208
+msgid "Product Listing Setting"
+msgstr ""
+
+#: inc/customizer/woocommerce.php:220
+msgid "Items Per Page"
+msgstr ""
+
+#: inc/customizer/woocommerce.php:233
+msgid "Number Of Related Items"
+msgstr ""
+
+#: inc/customizer/woocommerce.php:246
+msgid "Number Of Upsell Items"
+msgstr ""
+
+#: inc/customizer/woocommerce.php:261
+msgid "Number Of Items Per Row"
+msgstr ""
+
+#: inc/customizer/woocommerce.php:265
+msgid "2 Items"
+msgstr ""
+
+#: inc/customizer/woocommerce.php:266
+msgid "3 Items"
+msgstr ""
+
+#: inc/customizer/woocommerce.php:267
+msgid "4 Items"
+msgstr ""
+
+#: inc/customizer/woocommerce.php:268
+msgid "6 Items"
+msgstr ""
+
+#: inc/customizer/woocommerce.php:280
+msgid "Product Page Setting"
+msgstr ""
+
+#: inc/functions/theme.php:21
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/functions/theme.php:86
+msgid "Sticky"
+msgstr ""
+
+#: inc/functions/theme.php:169 vc_templates/vc_posts_grid.php:140
+msgid "All"
+msgstr ""
+
+#: inc/functions/theme.php:270 inc/functions/woocommerce.php:123
+msgid "Previous"
+msgstr ""
+
+#: inc/functions/theme.php:270 inc/functions/woocommerce.php:123
+msgid "Next"
+msgstr ""
+
+#: inc/functions/theme.php:278 inc/functions/woocommerce.php:132
+#: woocommerce/loop/result-count.php:28
+msgid "Showing the single result"
+msgstr ""
+
+#: inc/functions/theme.php:280 inc/functions/woocommerce.php:134
+#: woocommerce/loop/result-count.php:30
+#, php-format
+msgid "Showing all %d results"
+msgstr ""
+
+#: inc/functions/theme.php:369
+msgid "Icon Class"
+msgstr ""
+
+#: inc/functions/woocommerce.php:59 inc/functions/woocommerce.php:63
+msgid "Wishlist"
+msgstr ""
+
+#: inc/functions/woocommerce.php:103
+msgid "View your shopping cart"
+msgstr ""
+
+#: inc/functions/woocommerce.php:104
+msgid "My Cart "
+msgstr "Varukorg "
+
+#: inc/functions/woocommerce.php:105
+#, php-format
+msgid " <span class=\"mini-cart-items\"> %d item </span> "
+msgstr " <span class=\"mini-cart-items\"> %d varor </span> "
+
+#: inc/functions/woocommerce.php:151 woocommerce/checkout/thankyou.php:28
+msgid "My Account"
+msgstr "Mitt konto"
+
+#: inc/functions/woocommerce.php:157 woocommerce/cart/mini-cart.php:86
+msgid "Checkout"
+msgstr ""
+
+#: inc/functions/woocommerce.php:163 woocommerce/widgets/widget-cart.php:24
+msgid "Cart"
+msgstr ""
+
+#: inc/functions/woocommerce.php:280
+msgid "Out of stock"
+msgstr ""
+
+#: inc/vc/class/all_products.php:17 inc/vc/woocommerce.php:50
+msgid "Latest Products"
+msgstr ""
+
+#: inc/vc/class/all_products.php:17
+msgid "Latest"
+msgstr ""
+
+#: inc/vc/class/all_products.php:19 inc/vc/woocommerce.php:51
+msgid "Featured Products"
+msgstr ""
+
+#: inc/vc/class/all_products.php:19
+msgid "Featured"
+msgstr ""
+
+#: inc/vc/class/all_products.php:21
+msgid "Top Rated Products"
+msgstr ""
+
+#: inc/vc/class/all_products.php:23 inc/vc/woocommerce.php:52
+msgid "BestSeller Products"
+msgstr ""
+
+#: inc/vc/class/all_products.php:23
+msgid "BestSeller"
+msgstr ""
+
+#: inc/vc/class/all_products.php:25 inc/vc/woocommerce.php:54
+msgid "Special Products"
+msgstr ""
+
+#: inc/vc/class/all_products.php:25
+msgid "Special"
+msgstr ""
+
+#: inc/vc/pagebuilder.php:149
+msgid "Top to bottom"
+msgstr ""
+
+#: inc/vc/pagebuilder.php:150
+msgid "Bottom to top"
+msgstr ""
+
+#: inc/vc/pagebuilder.php:151
+msgid "Left to right"
+msgstr ""
+
+#: inc/vc/pagebuilder.php:152
+msgid "Right to left"
+msgstr ""
+
+#: inc/vc/pagebuilder.php:153
+msgid "Appear from center"
+msgstr ""
+
+#: inc/vc/theme.php:11
+msgid "WPO Vertical Menu"
+msgstr ""
+
+#: inc/vc/theme.php:28
+msgid "Select menu."
+msgstr ""
+
+#: inc/vc/theme.php:32
+msgid "Position"
+msgstr ""
+
+#: inc/vc/theme.php:39
+msgid "Postion Menu Vertical."
+msgstr ""
+
+#: inc/vc/theme.php:43 inc/vc/theme.php:129 inc/vc/theme.php:190
+#: inc/vc/theme.php:259 inc/vc/theme.php:352 inc/vc/theme.php:454
+#: inc/vc/theme.php:546 inc/vc/theme.php:620 inc/vc/theme.php:704
+#: inc/vc/theme.php:772 inc/vc/theme.php:841 inc/vc/theme.php:954
+#: inc/vc/theme.php:1047 inc/vc/theme.php:1138 inc/vc/theme.php:1200
+#: inc/vc/theme.php:1304 inc/vc/woocommerce.php:19 inc/vc/woocommerce.php:98
+#: inc/vc/woocommerce.php:151 inc/vc/woocommerce.php:228
+#: inc/vc/woocommerce.php:303 inc/vc/woocommerce.php:339
+#: inc/vc/woocommerce.php:384
+msgid "Extra class name"
+msgstr ""
+
+#: inc/vc/theme.php:45 inc/vc/theme.php:131 inc/vc/theme.php:192
+#: inc/vc/theme.php:261 inc/vc/theme.php:354 inc/vc/theme.php:456
+#: inc/vc/theme.php:548 inc/vc/theme.php:622 inc/vc/theme.php:706
+#: inc/vc/theme.php:774 inc/vc/theme.php:843 inc/vc/theme.php:956
+#: inc/vc/theme.php:1049 inc/vc/theme.php:1140 inc/vc/theme.php:1202
+#: inc/vc/theme.php:1306 inc/vc/woocommerce.php:21 inc/vc/woocommerce.php:100
+#: inc/vc/woocommerce.php:153 inc/vc/woocommerce.php:230
+#: inc/vc/woocommerce.php:305 inc/vc/woocommerce.php:341
+#: inc/vc/woocommerce.php:386
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: inc/vc/theme.php:55
+msgid "WPO Portfolio"
+msgstr ""
+
+#: inc/vc/theme.php:60 inc/vc/theme.php:146 inc/vc/theme.php:206
+#: inc/vc/theme.php:276 inc/vc/theme.php:368 inc/vc/theme.php:470
+#: inc/vc/theme.php:563 inc/vc/theme.php:638 inc/vc/theme.php:721
+#: inc/vc/theme.php:788 inc/vc/theme.php:885 inc/vc/theme.php:977
+#: inc/vc/theme.php:1060 inc/vc/theme.php:1151 inc/vc/theme.php:1217
+#: inc/vc/woocommerce.php:61 inc/vc/woocommerce.php:122
+#: inc/vc/woocommerce.php:168 inc/vc/woocommerce.php:243
+#: inc/vc/woocommerce.php:317 inc/vc/woocommerce.php:351
+msgid "Opal Widgets"
+msgstr ""
+
+#: inc/vc/theme.php:72 inc/vc/theme.php:159 inc/vc/theme.php:218
+#: inc/vc/theme.php:575 inc/vc/theme.php:650 inc/vc/theme.php:910
+#: inc/vc/theme.php:1002 inc/vc/theme.php:1085 inc/vc/theme.php:1170
+#: inc/vc/theme.php:1240 inc/vc/visualcomposer.php:63
+#: inc/vc/visualcomposer.php:86 inc/vc/woocommerce.php:179
+#: inc/vc/woocommerce.php:254
+msgid "Title font size"
+msgstr ""
+
+#: inc/vc/theme.php:75 inc/vc/theme.php:162 inc/vc/theme.php:221
+#: inc/vc/theme.php:578 inc/vc/theme.php:653 inc/vc/theme.php:913
+#: inc/vc/theme.php:1005 inc/vc/theme.php:1088 inc/vc/theme.php:1173
+#: inc/vc/theme.php:1243 inc/vc/visualcomposer.php:66
+#: inc/vc/visualcomposer.php:89 inc/vc/woocommerce.php:182
+#: inc/vc/woocommerce.php:257
+msgid "Large"
+msgstr ""
+
+#: inc/vc/theme.php:76 inc/vc/theme.php:163 inc/vc/theme.php:222
+#: inc/vc/theme.php:579 inc/vc/theme.php:654 inc/vc/theme.php:914
+#: inc/vc/theme.php:1006 inc/vc/theme.php:1089 inc/vc/theme.php:1174
+#: inc/vc/theme.php:1244 inc/vc/visualcomposer.php:67
+#: inc/vc/visualcomposer.php:90 inc/vc/woocommerce.php:183
+#: inc/vc/woocommerce.php:258
+msgid "Medium"
+msgstr ""
+
+#: inc/vc/theme.php:77 inc/vc/theme.php:164 inc/vc/theme.php:223
+#: inc/vc/theme.php:580 inc/vc/theme.php:655 inc/vc/theme.php:915
+#: inc/vc/theme.php:1007 inc/vc/theme.php:1090 inc/vc/theme.php:1175
+#: inc/vc/theme.php:1245 inc/vc/visualcomposer.php:68
+#: inc/vc/visualcomposer.php:91 inc/vc/woocommerce.php:184
+#: inc/vc/woocommerce.php:259
+msgid "Small"
+msgstr ""
+
+#: inc/vc/theme.php:78 inc/vc/theme.php:165 inc/vc/theme.php:224
+#: inc/vc/theme.php:581 inc/vc/theme.php:656 inc/vc/theme.php:916
+#: inc/vc/theme.php:1008 inc/vc/theme.php:1091 inc/vc/theme.php:1176
+#: inc/vc/theme.php:1246 inc/vc/visualcomposer.php:69
+#: inc/vc/visualcomposer.php:92 inc/vc/woocommerce.php:185
+#: inc/vc/woocommerce.php:260
+msgid "Extra small"
+msgstr ""
+
+#: inc/vc/theme.php:84 inc/vc/theme.php:171 inc/vc/theme.php:237
+#: inc/vc/theme.php:587 inc/vc/theme.php:662 inc/vc/theme.php:899
+#: inc/vc/theme.php:991 inc/vc/theme.php:1074 inc/vc/theme.php:1229
+#: inc/vc/visualcomposer.php:75 inc/vc/woocommerce.php:190
+#: inc/vc/woocommerce.php:265
+msgid "Title Alignment"
+msgstr ""
+
+#: inc/vc/theme.php:87 inc/vc/theme.php:174 inc/vc/theme.php:240
+#: inc/vc/theme.php:590 inc/vc/theme.php:665 inc/vc/theme.php:902
+#: inc/vc/theme.php:994 inc/vc/theme.php:1077 inc/vc/theme.php:1186
+#: inc/vc/theme.php:1232 inc/vc/visualcomposer.php:78
+#: inc/vc/woocommerce.php:193 inc/vc/woocommerce.php:268
+msgid "Align left"
+msgstr ""
+
+#: inc/vc/theme.php:88 inc/vc/theme.php:175 inc/vc/theme.php:241
+#: inc/vc/theme.php:591 inc/vc/theme.php:666 inc/vc/theme.php:903
+#: inc/vc/theme.php:995 inc/vc/theme.php:1078 inc/vc/theme.php:1185
+#: inc/vc/theme.php:1233 inc/vc/visualcomposer.php:79
+#: inc/vc/woocommerce.php:194 inc/vc/woocommerce.php:269
+msgid "Align center"
+msgstr ""
+
+#: inc/vc/theme.php:89 inc/vc/theme.php:176 inc/vc/theme.php:242
+#: inc/vc/theme.php:592 inc/vc/theme.php:667 inc/vc/theme.php:904
+#: inc/vc/theme.php:996 inc/vc/theme.php:1079 inc/vc/theme.php:1187
+#: inc/vc/theme.php:1234 inc/vc/visualcomposer.php:80
+#: inc/vc/woocommerce.php:195 inc/vc/woocommerce.php:270
+msgid "Align right"
+msgstr ""
+
+#: inc/vc/theme.php:102
+msgid "Number of portfolio to show"
+msgstr ""
+
+#: inc/vc/theme.php:109 inc/vc/woocommerce.php:25 inc/vc/woocommerce.php:85
+#: inc/vc/woocommerce.php:214 inc/vc/woocommerce.php:295
+msgid "Columns count"
+msgstr ""
+
+#: inc/vc/theme.php:114 inc/vc/woocommerce.php:29 inc/vc/woocommerce.php:89
+#: inc/vc/woocommerce.php:204 inc/vc/woocommerce.php:218
+#: inc/vc/woocommerce.php:299
+msgid "Select columns count."
+msgstr ""
+
+#: inc/vc/theme.php:119
+msgid "Style display"
+msgstr ""
+
+#: inc/vc/theme.php:124
+msgid "Select style display."
+msgstr ""
+
+#: inc/vc/theme.php:142
+msgid "WPO Testimonials"
+msgstr ""
+
+#: inc/vc/theme.php:144
+msgid "Play Testimonials In Carousel"
+msgstr ""
+
+#: inc/vc/theme.php:182
+msgid "Skin"
+msgstr ""
+
+#: inc/vc/theme.php:186 inc/vc/theme.php:937 inc/vc/visualcomposer.php:168
+msgid "Select Skin layout."
+msgstr ""
+
+#: inc/vc/theme.php:202
+msgid "WPO Brands Carousel"
+msgstr ""
+
+#: inc/vc/theme.php:248 inc/vc/woocommerce.php:328
+msgid "Number of brands to show"
+msgstr ""
+
+#: inc/vc/theme.php:254 inc/vc/woocommerce.php:93 inc/vc/woocommerce.php:334
+msgid "Icon"
+msgstr ""
+
+#: inc/vc/theme.php:272
+msgid "WPO Pricing"
+msgstr ""
+
+#: inc/vc/theme.php:274
+msgid "Make Plan for membership"
+msgstr ""
+
+#: inc/vc/theme.php:287 woocommerce/cart/cart.php:32
+#: woocommerce/emails/admin-new-order.php:24
+#: woocommerce/emails/customer-completed-order.php:25
+#: woocommerce/emails/customer-invoice.php:29
+#: woocommerce/emails/customer-note.php:29
+#: woocommerce/emails/customer-processing-order.php:25
+msgid "Price"
+msgstr ""
+
+#: inc/vc/theme.php:294
+msgid "Currency"
+msgstr ""
+
+#: inc/vc/theme.php:301
+msgid "Period"
+msgstr ""
+
+#: inc/vc/theme.php:308
+msgid "Subtitle"
+msgstr ""
+
+#: inc/vc/theme.php:315
+msgid "Is Featured"
+msgstr ""
+
+#: inc/vc/theme.php:322
+msgid "Box Style"
+msgstr ""
+
+#: inc/vc/theme.php:324
+msgid "Boxed"
+msgstr ""
+
+#: inc/vc/theme.php:324
+msgid "Label"
+msgstr ""
+
+#: inc/vc/theme.php:324
+msgid "Table"
+msgstr ""
+
+#: inc/vc/theme.php:332 inc/vc/theme.php:397 inc/vc/theme.php:498
+#: inc/vc/theme.php:601 inc/vc/theme.php:694 inc/vc/theme.php:746
+#: inc/vc/theme.php:1282 inc/vc/theme.php:1291
+msgid "Allow  put html tags"
+msgstr ""
+
+#: inc/vc/theme.php:337
+msgid "Link Title"
+msgstr ""
+
+#: inc/vc/theme.php:345
+msgid "Link"
+msgstr ""
+
+#: inc/vc/theme.php:364
+msgid "WPO Our Team Grid Style"
+msgstr ""
+
+#: inc/vc/theme.php:379 inc/vc/theme.php:481 inc/vc/theme.php:683
+msgid "Photo"
+msgstr ""
+
+#: inc/vc/theme.php:386
+msgid "Job"
+msgstr ""
+
+#: inc/vc/theme.php:394 inc/vc/theme.php:495 inc/vc/theme.php:598
+#: inc/vc/theme.php:691 inc/vc/theme.php:743
+msgid "information"
+msgstr ""
+
+#: inc/vc/theme.php:408
+msgid "Google Plus"
+msgstr ""
+
+#: inc/vc/theme.php:415 inc/vc/theme.php:516
+msgid "Facebook"
+msgstr ""
+
+#: inc/vc/theme.php:423 inc/vc/theme.php:524
+msgid "Twitter"
+msgstr ""
+
+#: inc/vc/theme.php:431
+msgid "Pinterest"
+msgstr ""
+
+#: inc/vc/theme.php:439 inc/vc/theme.php:532
+msgid "Linked In"
+msgstr ""
+
+#: inc/vc/theme.php:447 inc/vc/theme.php:540 inc/vc/theme.php:698
+#: inc/vc/theme.php:766 inc/vc/theme.php:834 inc/vc/theme.php:1297
+#: inc/vc/woocommerce.php:73 inc/vc/woocommerce.php:208
+#: inc/vc/woocommerce.php:283
+msgid "Style"
+msgstr ""
+
+#: inc/vc/theme.php:449 inc/vc/theme.php:542 inc/vc/theme.php:700
+#: inc/vc/theme.php:768 inc/vc/theme.php:836 inc/vc/theme.php:1299
+msgid "circle"
+msgstr ""
+
+#: inc/vc/theme.php:449 inc/vc/theme.php:542 inc/vc/theme.php:700
+#: inc/vc/theme.php:768 inc/vc/theme.php:836 inc/vc/theme.php:1299
+msgid "vertical"
+msgstr ""
+
+#: inc/vc/theme.php:449 inc/vc/theme.php:542 inc/vc/theme.php:700
+#: inc/vc/theme.php:768 inc/vc/theme.php:836 inc/vc/theme.php:1299
+msgid "horizontal"
+msgstr ""
+
+#: inc/vc/theme.php:466
+msgid "WPO Our Team List Style"
+msgstr ""
+
+#: inc/vc/theme.php:469
+msgid "Show Info In List Style"
+msgstr ""
+
+#: inc/vc/theme.php:502
+msgid "blockquote"
+msgstr ""
+
+#: inc/vc/theme.php:559
+msgid "WPO Info Box"
+msgstr ""
+
+#: inc/vc/theme.php:562
+msgid "Show header, text in special style"
+msgstr ""
+
+#: inc/vc/theme.php:605 inc/vc/theme.php:750
+msgid "Backgroup Image"
+msgstr ""
+
+#: inc/vc/theme.php:612 inc/vc/theme.php:758
+msgid "Background Color"
+msgstr ""
+
+#: inc/vc/theme.php:634
+msgid "WPO Our Service"
+msgstr ""
+
+#: inc/vc/theme.php:636
+msgid "Decreale Service Info"
+msgstr ""
+
+#: inc/vc/theme.php:673 inc/vc/theme.php:733 inc/vc/theme.php:807
+#: inc/vc/theme.php:1253
+msgid "FontAwsome Icon"
+msgstr ""
+
+#: inc/vc/theme.php:676 inc/vc/theme.php:736 inc/vc/theme.php:810
+#: inc/vc/theme.php:1256
+msgid "This support display icon from FontAwsome, Please click"
+msgstr ""
+
+#: inc/vc/theme.php:678 inc/vc/theme.php:738 inc/vc/theme.php:812
+#: inc/vc/theme.php:1258
+msgid "here to see the list"
+msgstr ""
+
+#: inc/vc/theme.php:717
+msgid "WPO What To Do"
+msgstr ""
+
+#: inc/vc/theme.php:720
+msgid "Decreale todo info"
+msgstr ""
+
+#: inc/vc/theme.php:784
+msgid "WPO Counter"
+msgstr ""
+
+#: inc/vc/theme.php:787 inc/vc/theme.php:1216
+msgid "Counting number with your term"
+msgstr ""
+
+#: inc/vc/theme.php:800
+msgid "Number"
+msgstr ""
+
+#: inc/vc/theme.php:818 inc/vc/theme.php:1271
+msgid "If you upload an image, icon will not show."
+msgstr ""
+
+#: inc/vc/theme.php:821 inc/vc/theme.php:1274 inc/vc/woocommerce.php:139
+msgid "Image"
+msgstr ""
+
+#: inc/vc/theme.php:826 inc/vc/theme.php:1263
+msgid "Icon Color"
+msgstr ""
+
+#: inc/vc/theme.php:875 inc/woocommerce/woocommerce.php:122
+msgid "Grid"
+msgstr ""
+
+#: inc/vc/theme.php:876 inc/woocommerce/woocommerce.php:117
+msgid "List"
+msgstr ""
+
+#: inc/vc/theme.php:877
+msgid "List not image"
+msgstr ""
+
+#: inc/vc/theme.php:882
+msgid "WPO Grid Posts"
+msgstr ""
+
+#: inc/vc/theme.php:886
+msgid "Post having news,managzine style"
+msgstr ""
+
+#: inc/vc/theme.php:891 inc/vc/theme.php:983 inc/vc/theme.php:1066
+#: inc/vc/theme.php:1156
+msgid "Widget title"
+msgstr ""
+
+#: inc/vc/theme.php:893 inc/vc/theme.php:985 inc/vc/theme.php:1068
+msgid ""
+"Enter text which will be used as widget title. Leave blank if no title is "
+"needed."
+msgstr ""
+
+#: inc/vc/theme.php:922 inc/vc/theme.php:1014 inc/vc/theme.php:1104
+msgid "Grids content"
+msgstr ""
+
+#: inc/vc/theme.php:928 inc/vc/theme.php:1020 inc/vc/theme.php:1110
+msgid "Create WordPress loop, to populate content from your site."
+msgstr ""
+
+#: inc/vc/theme.php:932 inc/vc/visualcomposer.php:160
+msgid "Layout Type"
+msgstr ""
+
+#: inc/vc/theme.php:941 inc/vc/theme.php:1123
+msgid "Grid Columns"
+msgstr ""
+
+#: inc/vc/theme.php:948 inc/vc/theme.php:1041 inc/vc/theme.php:1132
+msgid "Thumbnail size"
+msgstr ""
+
+#: inc/vc/theme.php:950 inc/vc/theme.php:1043 inc/vc/theme.php:1134
+msgid ""
+"Enter thumbnail size. Example: thumbnail, medium, large, full or other sizes "
+"defined by current theme. Alternatively enter image size in pixels: 200x100 "
+"(Width x Height) . "
+msgstr ""
+
+#: inc/vc/theme.php:967
+msgid "Split"
+msgstr ""
+
+#: inc/vc/theme.php:968
+msgid "Inline"
+msgstr ""
+
+#: inc/vc/theme.php:969
+msgid "Hover Grid"
+msgstr ""
+
+#: inc/vc/theme.php:974
+msgid "WPO FrontPage Posts"
+msgstr ""
+
+#: inc/vc/theme.php:978 inc/vc/theme.php:1061
+msgid "Create Post having blog styles"
+msgstr ""
+
+#: inc/vc/theme.php:1025 inc/vc/theme.php:1115
+msgid "Layout"
+msgstr ""
+
+#: inc/vc/theme.php:1033
+msgid "Number Main Posts"
+msgstr ""
+
+#: inc/vc/theme.php:1057
+msgid "WPO Mega Blogs"
+msgstr ""
+
+#: inc/vc/theme.php:1117
+msgid "Default Style"
+msgstr ""
+
+#: inc/vc/theme.php:1117
+msgid "Special Style 1"
+msgstr ""
+
+#: inc/vc/theme.php:1117
+msgid "Special Style 2"
+msgstr ""
+
+#: inc/vc/theme.php:1148
+msgid "WPO Title Heading"
+msgstr ""
+
+#: inc/vc/theme.php:1152
+msgid "Create title for one block"
+msgstr ""
+
+#: inc/vc/theme.php:1159
+msgid "Enter heading title."
+msgstr ""
+
+#: inc/vc/theme.php:1164
+msgid "Title Color"
+msgstr ""
+
+#: inc/vc/theme.php:1166
+msgid "Select font color"
+msgstr ""
+
+#: inc/vc/theme.php:1178
+msgid "Select title font size."
+msgstr ""
+
+#: inc/vc/theme.php:1182
+msgid "Title Align"
+msgstr ""
+
+#: inc/vc/theme.php:1189
+msgid "Select title align."
+msgstr ""
+
+#: inc/vc/theme.php:1196
+msgid "Enter description for title."
+msgstr ""
+
+#: inc/vc/theme.php:1213
+msgid "WPO Reassuarence"
+msgstr ""
+
+#: inc/vc/theme.php:1279
+msgid "Short Information"
+msgstr ""
+
+#: inc/vc/theme.php:1288
+msgid "Detail Information"
+msgstr ""
+
+#: inc/vc/visualcomposer.php:147
+msgid "CSS Animation"
+msgstr ""
+
+#: inc/vc/visualcomposer.php:151
+msgid ""
+"Select animation type if you want this element to be animated when it enters "
+"into the browsers viewport. Note: Works only in modern browsers."
+msgstr ""
+
+#: inc/vc/visualcomposer.php:194
+msgid "Map Type"
+msgstr ""
+
+#: inc/vc/visualcomposer.php:203
+msgid "Select Map Type."
+msgstr ""
+
+#: inc/vc/woocommerce.php:5
+msgid "WPO Product Deals"
+msgstr ""
+
+#: inc/vc/woocommerce.php:53
+msgid "TopRated Products"
+msgstr ""
+
+#: inc/vc/woocommerce.php:58
+msgid "WPO Product Category"
+msgstr ""
+
+#: inc/vc/woocommerce.php:119
+msgid "WPO Product Categories Filter"
+msgstr ""
+
+#: inc/vc/woocommerce.php:136
+msgid "Upload an image for categories (190px x 190px)"
+msgstr ""
+
+#: inc/vc/woocommerce.php:144
+msgid "Number of categories to show"
+msgstr ""
+
+#: inc/vc/woocommerce.php:165
+msgid "WPO Products"
+msgstr ""
+
+#: inc/vc/woocommerce.php:240
+msgid "WPO Products Tabs"
+msgstr ""
+
+#: inc/vc/woocommerce.php:275
+msgid "Show Tab"
+msgstr ""
+
+#: inc/vc/woocommerce.php:277
+msgid "Control teasers look. Enable blocks and place them in desired order."
+msgstr ""
+
+#: inc/vc/woocommerce.php:314
+msgid "WPO Brands"
+msgstr ""
+
+#: inc/vc/woocommerce.php:348
+msgid "WPO Product Categories List"
+msgstr ""
+
+#: inc/vc/woocommerce.php:362
+msgid "Show post counts"
+msgstr ""
+
+#: inc/vc/woocommerce.php:364
+msgid "Enables show count total product of category."
+msgstr ""
+
+#: inc/vc/woocommerce.php:365 inc/vc/woocommerce.php:372
+#: inc/vc/woocommerce.php:379
+msgid "Yes, please"
+msgstr ""
+
+#: inc/vc/woocommerce.php:369
+msgid "show children of the current category"
+msgstr ""
+
+#: inc/vc/woocommerce.php:371
+msgid "Enables show children of the current category."
+msgstr ""
+
+#: inc/vc/woocommerce.php:376
+msgid "Show dropdown children of the current category "
+msgstr ""
+
+#: inc/vc/woocommerce.php:378
+msgid "Enables show dropdown children of the current category."
+msgstr ""
+
+#: inc/woocommerce/woocommerce.php:98
+#: woocommerce/single-product/product-image.php:38
+msgid "Placeholder"
+msgstr ""
+
+#: inc/woocommerce/woocommerce.php:114 woocommerce/myaccount/my-orders.php:83
+msgid "View"
+msgstr ""
+
+#: node_modules/grunt-checktextdomain/test/expected/incorrect-domain-autocorrect.php:3
+#: node_modules/grunt-checktextdomain/test/expected/incorrect-domain-autocorrect.php:5
+#: node_modules/grunt-checktextdomain/test/expected/incorrect-domain-autocorrect.php:9
+#: node_modules/grunt-checktextdomain/test/expected/incorrect-domain-autocorrect.php:10
+#: node_modules/grunt-checktextdomain/test/expected/incorrect-domain-autocorrect.php:14
+#: node_modules/grunt-checktextdomain/test/expected/incorrect-domain-autocorrect.php:15
+#: node_modules/grunt-checktextdomain/test/expected/variable-domain-autocorrect.php:4
+#: node_modules/grunt-checktextdomain/test/expected/variable-domain-autocorrect.php:6
+#: node_modules/grunt-checktextdomain/test/expected/variable-domain-autocorrect.php:10
+#: node_modules/grunt-checktextdomain/test/expected/variable-domain-autocorrect.php:11
+#: node_modules/grunt-checktextdomain/test/expected/variable-domain-autocorrect.php:15
+#: node_modules/grunt-checktextdomain/test/expected/variable-domain-autocorrect.php:16
+#: node_modules/grunt-checktextdomain/test/fixtures/correct-domain.php:3
+#: node_modules/grunt-checktextdomain/test/fixtures/correct-domain.php:5
+#: node_modules/grunt-checktextdomain/test/fixtures/correct-domain.php:9
+#: node_modules/grunt-checktextdomain/test/fixtures/correct-domain.php:10
+#: node_modules/grunt-checktextdomain/test/fixtures/correct-domain.php:14
+#: node_modules/grunt-checktextdomain/test/fixtures/correct-domain.php:15
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain-autocorrect.php:3
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain-autocorrect.php:5
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain-autocorrect.php:9
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain-autocorrect.php:10
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain-autocorrect.php:14
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain-autocorrect.php:15
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain.php:3
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain.php:5
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain.php:9
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain.php:10
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain.php:14
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain.php:15
+#: node_modules/grunt-checktextdomain/test/fixtures/missing-domain.php:3
+#: node_modules/grunt-checktextdomain/test/fixtures/missing-domain.php:5
+#: node_modules/grunt-checktextdomain/test/fixtures/missing-domain.php:9
+#: node_modules/grunt-checktextdomain/test/fixtures/missing-domain.php:10
+#: node_modules/grunt-checktextdomain/test/fixtures/missing-domain.php:14
+#: node_modules/grunt-checktextdomain/test/fixtures/missing-domain.php:15
+#: node_modules/grunt-checktextdomain/test/fixtures/variable-domain-autocorrect.php:4
+#: node_modules/grunt-checktextdomain/test/fixtures/variable-domain-autocorrect.php:6
+#: node_modules/grunt-checktextdomain/test/fixtures/variable-domain-autocorrect.php:10
+#: node_modules/grunt-checktextdomain/test/fixtures/variable-domain-autocorrect.php:11
+#: node_modules/grunt-checktextdomain/test/fixtures/variable-domain-autocorrect.php:15
+#: node_modules/grunt-checktextdomain/test/fixtures/variable-domain-autocorrect.php:16
+msgid "Hello World"
+msgstr ""
+
+#: node_modules/grunt-checktextdomain/test/expected/incorrect-domain-autocorrect.php:6
+#: node_modules/grunt-checktextdomain/test/expected/incorrect-domain-autocorrect.php:11
+#: node_modules/grunt-checktextdomain/test/expected/incorrect-domain-autocorrect.php:16
+#: node_modules/grunt-checktextdomain/test/expected/variable-domain-autocorrect.php:7
+#: node_modules/grunt-checktextdomain/test/expected/variable-domain-autocorrect.php:12
+#: node_modules/grunt-checktextdomain/test/expected/variable-domain-autocorrect.php:17
+#: node_modules/grunt-checktextdomain/test/fixtures/correct-domain.php:6
+#: node_modules/grunt-checktextdomain/test/fixtures/correct-domain.php:11
+#: node_modules/grunt-checktextdomain/test/fixtures/correct-domain.php:16
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain-autocorrect.php:6
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain-autocorrect.php:11
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain-autocorrect.php:16
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain.php:6
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain.php:11
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain.php:16
+#: node_modules/grunt-checktextdomain/test/fixtures/missing-domain.php:6
+#: node_modules/grunt-checktextdomain/test/fixtures/missing-domain.php:11
+#: node_modules/grunt-checktextdomain/test/fixtures/missing-domain.php:16
+#: node_modules/grunt-checktextdomain/test/fixtures/variable-domain-autocorrect.php:7
+#: node_modules/grunt-checktextdomain/test/fixtures/variable-domain-autocorrect.php:12
+#: node_modules/grunt-checktextdomain/test/fixtures/variable-domain-autocorrect.php:17
+msgid "Post"
+msgstr ""
+
+#: node_modules/grunt-checktextdomain/test/expected/incorrect-domain-autocorrect.php:20
+#: node_modules/grunt-checktextdomain/test/expected/variable-domain-autocorrect.php:21
+#: node_modules/grunt-checktextdomain/test/fixtures/correct-domain.php:20
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain-autocorrect.php:20
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain.php:20
+#: node_modules/grunt-checktextdomain/test/fixtures/missing-domain.php:20
+#: node_modules/grunt-checktextdomain/test/fixtures/plurals.php:3
+#: node_modules/grunt-checktextdomain/test/fixtures/plurals.php:8
+#: node_modules/grunt-checktextdomain/test/fixtures/plurals.php:15
+#: node_modules/grunt-checktextdomain/test/fixtures/variable-domain-autocorrect.php:21
+#, php-format
+msgid "%d apple"
+msgstr ""
+
+#: node_modules/grunt-checktextdomain/test/expected/incorrect-domain-autocorrect.php:21
+#: node_modules/grunt-checktextdomain/test/expected/variable-domain-autocorrect.php:22
+#: node_modules/grunt-checktextdomain/test/fixtures/correct-domain.php:21
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain-autocorrect.php:21
+#: node_modules/grunt-checktextdomain/test/fixtures/incorrect-domain.php:21
+#: node_modules/grunt-checktextdomain/test/fixtures/missing-domain.php:21
+#: node_modules/grunt-checktextdomain/test/fixtures/plurals.php:4
+#: node_modules/grunt-checktextdomain/test/fixtures/plurals.php:9
+#: node_modules/grunt-checktextdomain/test/fixtures/plurals.php:16
+#: node_modules/grunt-checktextdomain/test/fixtures/variable-domain-autocorrect.php:22
+#, php-format
+msgid "%d post"
+msgstr ""
+
+#: node_modules/grunt-pot/test/fixtures/some-file.php:3
+msgid "I'm a translatable string."
+msgstr ""
+
+#: node_modules/grunt-pot/test/fixtures/some-other-file.php:4
+msgid "Me too"
+msgstr ""
+
+#: node_modules/grunt-pot/test/fixtures/some-other-file.php:7
+#, php-format
+msgid "I have %d apple"
+msgid_plural "I have %d apples"
+msgstr[0] ""
+msgstr[1] ""
+
+#. / TRANSLATORS: This should be translated as a shorthand for YEAR-MONTH-DAY using 4, 2 and 2 digits.
+#: node_modules/grunt-pot/test/fixtures/some-other-file.php:16
+msgid "yyyy-mm-dd"
+msgstr ""
+
+#. /GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html
+#. *
+#. * @website  http://www.wpopal.com
+#. * @support  http://www.wpopal.com/support/forum.html
+#.
+#: search.php:20
+msgid "<span>Search </span> results for: "
+msgstr ""
+
+#: single.php:60
+msgid "Leave a comment"
+msgstr "<span>Sökresultat </span> för: "
+
+#: single.php:64 woocommerce/myaccount/my-address.php:47
+msgid "Edit"
+msgstr "Redigera"
+
+#: single.php:70
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Fortsätt läsa <span class=\"meta-nav\">&rarr;</span>"
+
+#: single.php:72
+msgid "Pages:"
+msgstr "Sidor:"
+
+#: single.php:88 templates/single/single-default.php:102
+#: templates/single/single.php:102
+msgid "Share this Post!"
+msgstr "Dela!"
+
+#. /GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html
+#. *
+#. * @website  http://www.wpopal.com
+#. * @support  http://www.wpopal.com/support/forum.html
+#.
+#: templates/author-bio.php:19
+msgid "About the Author :"
+msgstr ""
+
+#: templates/blog/blog-list.php:117 templates/blog/blog-portfolio.php:72
+#: templates/blog/blog.php:64 templates/post/_single-hover.php:16
+#: templates/post/frontpage-1.php:65 templates/single/single-default.php:84
+#: templates/single/single.php:84
+msgid " 0 comment"
+msgstr " ingen kommentar"
+
+#: templates/blog/blog-list.php:117 templates/blog/blog-portfolio.php:72
+#: templates/blog/blog.php:64 templates/post/_single-hover.php:16
+#: templates/post/frontpage-1.php:65 templates/single/single-default.php:84
+#: templates/single/single.php:84
+msgid " 1 comment"
+msgstr " 1 kommentar"
+
+#: templates/blog/blog-list.php:117 templates/blog/blog-portfolio.php:72
+#: templates/blog/blog.php:64 templates/post/_single-hover.php:16
+#: templates/post/frontpage-1.php:65 templates/single/single-default.php:84
+#: templates/single/single.php:84
+#, php-format
+msgid " % comments"
+msgstr " % kommentarer"
+
+#: templates/blog/blog-portfolio.php:86 templates/blog/blog.php:75
+msgid "read more"
+msgstr "läs mer"
+
+#: templates/breadcrumb.php:21
+msgid "Home"
+msgstr "Hem"
+
+#: templates/content/content-none.php:4 templates/none.php:3
+msgid "Nothing Found"
+msgstr "Ingenting hittades"
+
+#: templates/content/content-none.php:10 templates/none.php:9
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: templates/content/content-none.php:14
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: templates/content/content-none.php:19 templates/none.php:18
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: templates/content/content-portfolio.php:90
+#: templates/single/single-portfolio.php:90
+msgid "project description"
+msgstr ""
+
+#: templates/content/content-portfolio.php:104
+#: templates/single/single-portfolio.php:104
+msgid "Client"
+msgstr ""
+
+#: templates/content/content-portfolio.php:122
+#: templates/single/single-portfolio.php:122
+msgid "quick info"
+msgstr ""
+
+#: templates/content/content-portfolio.php:126
+#: templates/elements/page-title.php:28
+#: templates/single/single-portfolio.php:126
+#: woocommerce/global/breadcrumb.php:229 woocommerce/global/breadcrumb.php:230
+msgid "Author:"
+msgstr ""
+
+#: templates/content/content-portfolio.php:130
+#: templates/elements/page-title.php:31
+#: templates/single/single-portfolio.php:130
+#: woocommerce/single-product/meta.php:27
+msgid "Category:"
+msgstr ""
+
+#: templates/content/content-portfolio.php:134
+#: templates/single/single-portfolio.php:134
+#: woocommerce/checkout/thankyou.php:42
+msgid "Date:"
+msgstr ""
+
+#: templates/default_related_post.php:5 templates/related_post.php:5
+msgid "Related post"
+msgstr ""
+
+#: templates/elements/page-title.php:21
+msgid "Search results"
+msgstr "Sökresultat"
+
+#: templates/elements/page-title.php:24
+msgid "Error 404."
+msgstr ""
+
+#: templates/elements/page-title.php:24
+msgid "Page not found!"
+msgstr "Sidan hittades inte!"
+
+#: templates/elements/page-title.php:34
+msgid "Tagged:"
+msgstr "Taggar:"
+
+#: templates/elements/page-title.php:37
+msgid "Daily Archive:"
+msgstr "Dagligt arkiv:"
+
+#: templates/elements/page-title.php:40
+msgid "Monthly Archive:"
+msgstr "Månatligt arkiv:"
+
+#: templates/elements/page-title.php:43
+msgid "Yearly Archive:"
+msgstr "Årligt arkiv:"
+
+#: templates/elements/post-nav.php:3
+msgid "Next story"
+msgstr "Nästa"
+
+#: templates/elements/post-nav.php:4
+msgid "Previous story"
+msgstr "Föregående"
+
+#: templates/elements/related-posts.php:6
+msgid "You may also like..."
+msgstr "Andra gillar också..."
+
+#: templates/elements/sharrre.php:2
+msgid "Share"
+msgstr "Dela"
+
+#: templates/list_comments.php:30
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s på %2$s"
+
+#: templates/list_comments.php:31
+msgid " - Edit"
+msgstr " - Redigera"
+
+#: templates/list_comments.php:32
+msgid " - Reply"
+msgstr " - Svara"
+
+#: templates/list_comments.php:37
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar inväntar godkännande."
+
+#: templates/none.php:13
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"different keywords."
+msgstr ""
+
+#: templates/post/_single.php:51
+msgid "READ MORE"
+msgstr "LÄS MER"
+
+#: templates/related_portfolio.php:6
+msgid "Other Projects"
+msgstr "Andra projekt"
+
+#: templates/single/single-portfolio.php:152
+msgid "Share this Story!"
+msgstr "Dela din historia!"
+
+#: templates/widgets/featured_post/default.php:36
+#: templates/widgets/posts/default.php:41
+#: templates/widgets/recent_post/default.php:46
+#: templates/widgets/tabs/default.php:39 templates/widgets/tabs/default.php:71
+msgid "Posted: "
+msgstr "Postad:"
+
+#: templates/widgets/recent_comment/default.php:33
+#: templates/widgets/tabs/default.php:99
+msgid "says"
+msgstr "säger"
+
+#: templates/widgets/tabs/default.php:4
+msgid "Popular"
+msgstr "Populär"
+
+#: templates/widgets/tabs/default.php:9
+msgid "Recent"
+msgstr "Senaste"
+
+#: templates/widgets/tabs/default.php:14
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: templates/widgets/video/default.php:14
+msgid "Video error!"
+msgstr ""
+
+#: vc_templates/post_block/_item.php:24
+#, php-format
+msgid "Permalink to %s"
+msgstr "Länk till %s"
+
+#: vc_templates/post_block/_item.php:24
+msgid "Read more"
+msgstr "Läs mer"
+
+#: vc_templates/vc_accordion_tab.php:5
+msgid "Section"
+msgstr "Sektion"
+
+#: vc_templates/vc_accordion_tab.php:12
+msgid "Empty section. Edit page to add content here."
+msgstr "Tom sektion. Redigera sidan för att lägga till innehåll."
+
+#: vc_templates/vc_flickr.php:19
+msgid "View stream on flickr"
+msgstr "Visa stream på flicr"
+
+#: vc_templates/vc_posts_grid.php:175
+msgid "Nothing found."
+msgstr "Ingenting hittades."
+
+#: vc_templates/vc_toggle.php:4
+msgid "Click to toggle"
+msgstr ""
+
+#: vc_templates/wpo_all_products.php:90
+msgid "Loading..."
+msgstr "Laddar..."
+
+#: vc_templates/wpo_all_products.php:92
+msgid "Load More"
+msgstr "Ladda fler"
+
+#: vc_templates/wpo_category_filter.php:75
+msgid "more"
+msgstr "mer"
+
+#: woocommerce/cart/cart-empty.php:16
+msgid "Your cart is currently empty."
+msgstr "Din varukorg är tom."
+
+#: woocommerce/cart/cart-empty.php:20
+msgid "Return To Shop"
+msgstr "Återvänd till butik"
+
+#: woocommerce/cart/cart-shipping.php:16
+#, php-format
+msgid "Shipping #%d"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:18
+msgid "Shipping and Handling"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:55
+msgid "Please use the shipping calculator to see available shipping methods."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:59
+msgid ""
+"Please continue to the checkout and enter your full address to see if there "
+"are any available shipping methods."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:63
+msgid "Please fill in your details to see available shipping methods."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:73 woocommerce/cart/cart-shipping.php:81
+#, php-format
+msgid "Sorry, shipping is unavailable %s."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:73 woocommerce/cart/cart-shipping.php:81
+msgid ""
+"If you require assistance or wish to make alternate arrangements please "
+"contact us."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:97
+msgid "Shipping"
+msgstr ""
+
+#. /Templates
+#. * @version     2.1.0
+#.
+#. Exit if accessed directly
+#: woocommerce/cart/cart-totals.php:16
+msgid "Cart Totals"
+msgstr "Totalt"
+
+#: woocommerce/cart/cart-totals.php:23
+#: woocommerce/checkout/review-order.php:27
+msgid "Cart Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:77
+#: woocommerce/checkout/review-order.php:81
+msgid "Order Total"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:91
+#, php-format
+msgid " (taxes estimated for %s)"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:94
+#, php-format
+msgid ""
+"Note: Shipping and taxes are estimated%s and will be updated during checkout "
+"based on your billing and shipping information."
+msgstr ""
+
+#. /Templates
+#. * @version     2.1.8
+#.
+#. Exit if accessed directly
+#: woocommerce/cart/cart.php:31 woocommerce/checkout/form-pay.php:20
+#: woocommerce/checkout/review-order.php:20
+#: woocommerce/emails/admin-new-order.php:22
+#: woocommerce/emails/customer-completed-order.php:23
+#: woocommerce/emails/customer-invoice.php:27
+#: woocommerce/emails/customer-note.php:27
+#: woocommerce/emails/customer-processing-order.php:23
+#: woocommerce/order/order-details.php:21
+msgid "Product"
+msgstr "Produkt"
+
+#: woocommerce/cart/cart.php:33 woocommerce/emails/admin-new-order.php:23
+#: woocommerce/emails/customer-completed-order.php:24
+#: woocommerce/emails/customer-invoice.php:28
+#: woocommerce/emails/customer-note.php:28
+#: woocommerce/emails/customer-processing-order.php:24
+#: woocommerce/global/quantity-input.php:14
+msgid "Quantity"
+msgstr "Antal"
+
+#: woocommerce/cart/cart.php:34 woocommerce/checkout/review-order.php:21
+#: woocommerce/myaccount/my-orders.php:37
+#: woocommerce/order/order-details.php:22
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:51 woocommerce/cart/mini-cart.php:56
+msgid "Remove this item"
+msgstr "Ta bort"
+
+#: woocommerce/cart/cart.php:78
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:121
+msgid "Coupon"
+msgstr "Kupong"
+
+#: woocommerce/cart/cart.php:121 woocommerce/checkout/form-coupon.php:25
+msgid "Coupon code"
+msgstr "Rabattkod"
+
+#: woocommerce/cart/cart.php:121 woocommerce/checkout/form-coupon.php:30
+msgid "Apply Coupon"
+msgstr "Använd kupong"
+
+#: woocommerce/cart/cart.php:127
+msgid "Update Cart"
+msgstr "Uppdatera varukorg"
+
+#: woocommerce/cart/cart.php:128
+msgid "Proceed to Checkout"
+msgstr "Fortsätt till betalning"
+
+#: woocommerce/cart/cross-sells.php:38
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:72
+msgid "No products in the cart."
+msgstr "Ingen produkt i varukorgen."
+
+#: woocommerce/cart/mini-cart.php:80
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:85
+msgid "View Cart"
+msgstr "Visa varukorg"
+
+#: woocommerce/cart/shipping-calculator.php:23
+msgid "Calculate Shipping"
+msgstr "Summera frakt"
+
+#: woocommerce/cart/shipping-calculator.php:29
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:46
+#: woocommerce/cart/shipping-calculator.php:52
+#: woocommerce/cart/shipping-calculator.php:64
+msgid "State / county"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:53
+msgid "Select a state&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:73
+msgid "City"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:81
+msgid "Postcode / Zip"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:86
+msgid "Update Totals"
+msgstr ""
+
+#. /Templates
+#. * @version     1.6.4
+#.
+#. Exit if accessed directly
+#: woocommerce/checkout/cart-errors.php:16
+msgid ""
+"There are some issues with the items in your cart (shown above). Please go "
+"back to the cart page and resolve these issues before checking out."
+msgstr ""
+
+#: woocommerce/checkout/cart-errors.php:20
+msgid "Return To Cart"
+msgstr "Återvänd till varukorg"
+
+#. /Templates
+#. * @version     2.1.2
+#.
+#. Exit if accessed directly
+#: woocommerce/checkout/form-billing.php:15
+msgid "Billing &amp; Shipping"
+msgstr "Betalning och frakt"
+
+#: woocommerce/checkout/form-billing.php:19
+msgid "Billing Details"
+msgstr "Fakturadetalj"
+
+#: woocommerce/checkout/form-billing.php:39
+msgid "Create an account?"
+msgstr "Skapa ett konto"
+
+#: woocommerce/checkout/form-billing.php:53
+msgid ""
+"Create an account by entering the information below. If you are a returning "
+"customer please login at the top of the page."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:20
+msgid "You must be logged in to checkout."
+msgstr "Du måste logga in för att slutföra köp."
+
+#: woocommerce/checkout/form-checkout.php:51
+msgid "Your order"
+msgstr "Din order"
+
+#: woocommerce/checkout/form-coupon.php:16
+msgid "Have a coupon?"
+msgstr "Har du en rabattkod?"
+
+#: woocommerce/checkout/form-coupon.php:16
+msgid "Click here to enter your code"
+msgstr "Klicka hör för att använda din kod."
+
+#: woocommerce/checkout/form-login.php:14
+msgid "Returning customer?"
+msgstr "Återvändande kund?"
+
+#: woocommerce/checkout/form-login.php:15
+msgid "Click here to login"
+msgstr "Klicka hör för att logga in"
+
+#: woocommerce/checkout/form-login.php:22
+msgid ""
+"If you have shopped with us before, please enter your details in the boxes "
+"below. If you are a new customer please proceed to the Billing &amp; "
+"Shipping section."
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:21
+msgid "Qty"
+msgstr "Ant:"
+
+#: woocommerce/checkout/form-pay.php:22
+msgid "Totals"
+msgstr "Totalt"
+
+#: woocommerce/checkout/form-pay.php:56
+msgid "Payment"
+msgstr "Betalning"
+
+#: woocommerce/checkout/form-pay.php:83
+msgid ""
+"Sorry, it seems that there are no available payment methods for your "
+"location. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:93
+msgid "Pay for order"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:30
+msgid "Ship to a different address?"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:57
+#: woocommerce/single-product/tabs/additional-information.php:17
+msgid "Additional Information"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:156
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:158
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:169
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the <em>Update Totals</em> button before placing your "
+"order. You may be charged more than the amount stated above if you fail to "
+"do so."
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:169
+msgid "Update totals"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:176
+msgid "Place order"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:186
+#, php-format
+msgid ""
+"I&rsquo;ve read and accept the <a href=\"%s\" target=\"_blank\">terms &amp; "
+"conditions</a>"
+msgstr ""
+
+#. /Templates
+#. * @version     2.2.0
+#.
+#. Exit if accessed directly
+#: woocommerce/checkout/thankyou.php:16
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:20
+msgid "Please attempt your purchase again or go to your account page."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:22
+msgid "Please attempt your purchase again."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:26 woocommerce/myaccount/my-orders.php:70
+msgid "Pay"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:34 woocommerce/checkout/thankyou.php:65
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:38
+#: woocommerce/emails/customer-completed-order.php:18
+#: woocommerce/emails/customer-invoice.php:22
+#: woocommerce/emails/customer-note.php:22
+#: woocommerce/emails/customer-processing-order.php:18
+msgid "Order:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:46
+msgid "Total:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:51
+msgid "Payment method:"
+msgstr ""
+
+#: woocommerce/compare.php:72
+msgid "Close window [X]"
+msgstr "Stäng fönster [X]"
+
+#: woocommerce/compare.php:98
+msgid "No products added in the compare table."
+msgstr "Inga produkter tillagda i jämföringstabell."
+
+#: woocommerce/content-product-list.php:72
+msgid "Quick view"
+msgstr "Förhandsgranskning"
+
+#: woocommerce/content-product-list.php:108
+msgid "add to compare"
+msgstr "lägg till för jämförelse"
+
+#. /Templates/Emails/HTML
+#. * @version 2.0.0
+#.
+#. Exit if accessed directly
+#: woocommerce/emails/admin-new-order.php:13
+#: woocommerce/emails/plain/admin-new-order.php:13
+#, php-format
+msgid "You have received an order from %s. Their order is as follows:"
+msgstr ""
+
+#: woocommerce/emails/admin-new-order.php:17
+#, php-format
+msgid "Order: %s"
+msgstr ""
+
+#: woocommerce/emails/admin-new-order.php:50
+#: woocommerce/emails/customer-completed-order.php:51
+#: woocommerce/emails/customer-note.php:55
+#: woocommerce/emails/customer-processing-order.php:51
+#: woocommerce/emails/plain/admin-new-order.php:39
+#: woocommerce/order/order-details.php:100
+msgid "Customer details"
+msgstr ""
+
+#: woocommerce/emails/admin-new-order.php:53
+#: woocommerce/emails/customer-completed-order.php:54
+#: woocommerce/emails/customer-note.php:58
+#: woocommerce/emails/customer-processing-order.php:54
+#: woocommerce/emails/plain/admin-new-order.php:42
+#: woocommerce/emails/plain/customer-completed-order.php:41
+#: woocommerce/emails/plain/customer-note.php:49
+#: woocommerce/emails/plain/customer-processing-order.php:41
+#: woocommerce/order/order-details.php:104
+msgid "Email:"
+msgstr ""
+
+#: woocommerce/emails/admin-new-order.php:56
+#: woocommerce/emails/customer-completed-order.php:57
+#: woocommerce/emails/customer-note.php:61
+#: woocommerce/emails/customer-processing-order.php:57
+#: woocommerce/emails/plain/admin-new-order.php:45
+#: woocommerce/emails/plain/customer-completed-order.php:44
+#: woocommerce/emails/plain/customer-note.php:52
+#: woocommerce/emails/plain/customer-processing-order.php:44
+msgid "Tel:"
+msgstr ""
+
+#. /Templates/Emails
+#. * @version     1.6.4
+#.
+#. Exit if accessed directly
+#: woocommerce/emails/customer-completed-order.php:14
+#: woocommerce/emails/plain/customer-completed-order.php:13
+#, php-format
+msgid ""
+"Hi there. Your recent order on %s has been completed. Your order details are "
+"shown below for your reference:"
+msgstr ""
+
+#. /Templates/Emails
+#. * @version     2.2.0
+#.
+#. Exit if accessed directly
+#: woocommerce/emails/customer-invoice.php:16
+#: woocommerce/emails/plain/customer-invoice.php:14
+#, php-format
+msgid ""
+"An order has been created for you on %s. To pay for this order please use "
+"the following link: %s"
+msgstr ""
+
+#: woocommerce/emails/customer-invoice.php:16
+msgid "pay"
+msgstr ""
+
+#. /Templates/Emails
+#. * @version     1.6.4
+#.
+#. Exit if accessed directly
+#: woocommerce/emails/customer-new-account.php:14
+#: woocommerce/emails/plain/customer-new-account.php:13
+#, php-format
+msgid ""
+"Thanks for creating an account on %s. Your username is <strong>%s</strong>."
+msgstr ""
+
+#: woocommerce/emails/customer-new-account.php:18
+#, php-format
+msgid "Your password has been automatically generated: <strong>%s</strong>"
+msgstr ""
+
+#: woocommerce/emails/customer-new-account.php:22
+#: woocommerce/emails/plain/customer-new-account.php:18
+#, php-format
+msgid ""
+"You can access your account area to view your orders and change your "
+"password here: %s."
+msgstr ""
+
+#. /Templates/Emails
+#. * @version     1.6.4
+#.
+#. Exit if accessed directly
+#: woocommerce/emails/customer-note.php:14
+#: woocommerce/emails/plain/customer-note.php:13
+msgid "Hello, a note has just been added to your order:"
+msgstr ""
+
+#: woocommerce/emails/customer-note.php:18
+#: woocommerce/emails/plain/customer-note.php:21
+msgid "For your reference, your order details are shown below."
+msgstr ""
+
+#. /Templates/Emails
+#. * @version     1.6.4
+#.
+#. Exit if accessed directly
+#: woocommerce/emails/customer-processing-order.php:14
+#: woocommerce/emails/plain/customer-processing-order.php:13
+msgid ""
+"Your order has been received and is now being processed. Your order details "
+"are shown below for your reference:"
+msgstr ""
+
+#. /Templates/Emails
+#. * @version     2.0.0
+#.
+#. Exit if accessed directly
+#: woocommerce/emails/customer-reset-password.php:14
+#: woocommerce/emails/plain/customer-reset-password.php:13
+msgid "Someone requested that the password be reset for the following account:"
+msgstr ""
+
+#: woocommerce/emails/customer-reset-password.php:15
+#: woocommerce/emails/plain/customer-reset-password.php:15
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: woocommerce/emails/customer-reset-password.php:16
+#: woocommerce/emails/plain/customer-reset-password.php:16
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: woocommerce/emails/customer-reset-password.php:17
+#: woocommerce/emails/plain/customer-reset-password.php:17
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: woocommerce/emails/customer-reset-password.php:20
+msgid "Click here to reset your password"
+msgstr ""
+
+#: woocommerce/emails/email-addresses.php:20
+#: woocommerce/emails/plain/email-addresses.php:14
+msgid "Billing address"
+msgstr ""
+
+#: woocommerce/emails/email-addresses.php:30
+#: woocommerce/emails/plain/email-addresses.php:19
+msgid "Shipping address"
+msgstr ""
+
+#: woocommerce/emails/email-order-items.php:23
+msgid "Product Image"
+msgstr ""
+
+#: woocommerce/emails/email-order-items.php:44
+#: woocommerce/emails/plain/email-order-items.php:44
+#, php-format
+msgid "Download %d"
+msgstr ""
+
+#: woocommerce/emails/email-order-items.php:46
+#: woocommerce/emails/plain/email-order-items.php:46
+msgid "Download"
+msgstr ""
+
+#: woocommerce/emails/plain/admin-new-order.php:19
+#: woocommerce/emails/plain/customer-completed-order.php:19
+#: woocommerce/emails/plain/customer-invoice.php:20
+#: woocommerce/emails/plain/customer-note.php:27
+#: woocommerce/emails/plain/customer-processing-order.php:19
+#, php-format
+msgid "Order number: %s"
+msgstr ""
+
+#: woocommerce/emails/plain/admin-new-order.php:20
+#, php-format
+msgid "Order link: %s"
+msgstr ""
+
+#: woocommerce/emails/plain/admin-new-order.php:21
+#: woocommerce/emails/plain/customer-completed-order.php:20
+#: woocommerce/emails/plain/customer-invoice.php:21
+#: woocommerce/emails/plain/customer-note.php:28
+#: woocommerce/emails/plain/customer-processing-order.php:20
+#, php-format
+msgid "Order date: %s"
+msgstr ""
+
+#: woocommerce/emails/plain/admin-new-order.php:21
+msgid "jS F Y"
+msgstr ""
+
+#: woocommerce/emails/plain/customer-completed-order.php:38
+#: woocommerce/emails/plain/customer-note.php:46
+#: woocommerce/emails/plain/customer-processing-order.php:38
+msgid "Your details"
+msgstr ""
+
+#: woocommerce/emails/plain/customer-new-account.php:16
+#, php-format
+msgid "Your password is <strong>%s</strong>."
+msgstr ""
+
+#: woocommerce/emails/plain/email-order-items.php:30
+#, php-format
+msgid "Quantity: %s"
+msgstr ""
+
+#: woocommerce/emails/plain/email-order-items.php:33
+#, php-format
+msgid "Cost: %s"
+msgstr ""
+
+#: woocommerce/global/breadcrumb.php:76 woocommerce/global/breadcrumb.php:77
+msgid "Products tagged &ldquo;"
+msgstr "Produkter taggade &ldquo;"
+
+#: woocommerce/global/breadcrumb.php:105 woocommerce/global/breadcrumb.php:106
+#: woocommerce/global/breadcrumb.php:218 woocommerce/global/breadcrumb.php:219
+msgid "Search results for &ldquo;"
+msgstr "Sökresultat för &ldquo;"
+
+#: woocommerce/global/breadcrumb.php:167 woocommerce/global/breadcrumb.php:168
+msgid "Error 404"
+msgstr ""
+
+#: woocommerce/global/breadcrumb.php:223 woocommerce/global/breadcrumb.php:224
+msgid "Posts tagged &ldquo;"
+msgstr "Poster taggade &ldquo;"
+
+#: woocommerce/global/breadcrumb.php:235 woocommerce/global/breadcrumb.php:236
+msgid "Page"
+msgstr "Sida"
+
+#: woocommerce/global/form-login.php:24
+#: woocommerce/myaccount/form-lost-password.php:24
+msgid "Username or email"
+msgstr "Användarnamn eller e-post"
+
+#: woocommerce/global/form-login.php:30
+#: woocommerce/myaccount/form-login.php:38
+#: woocommerce/myaccount/form-login.php:89
+msgid "Password"
+msgstr "Lösenord"
+
+#: woocommerce/global/form-login.php:40
+#: woocommerce/myaccount/form-login.php:27
+#: woocommerce/myaccount/form-login.php:46
+msgid "Login"
+msgstr "Logga in"
+
+#: woocommerce/global/form-login.php:45
+#: woocommerce/myaccount/form-login.php:48
+msgid "Remember me"
+msgstr "Kom ihåg mig"
+
+#: woocommerce/global/form-login.php:50
+#: woocommerce/myaccount/form-login.php:52
+msgid "Lost your password?"
+msgstr "Glömt ditt lösenord?"
+
+#. /woocommerce/loop/no-products-found.php
+#. *
+#. * @author 		WooThemes
+#. * @package 	WooCommerce/Templates
+#. * @version     2.0.0
+#.
+#. Exit if accessed directly
+#: woocommerce/loop/no-products-found.php:14
+msgid "No products were found matching your selection."
+msgstr "Inga produkter hittades."
+
+#: woocommerce/loop/sale-flash.php:16
+#: woocommerce/single-product/sale-flash.php:16
+msgid "Sale"
+msgstr "Rea"
+
+#: woocommerce/myaccount/form-add-payment-method.php:42
+msgid ""
+"Sorry, it seems that there are no payment methods which support adding a new "
+"payment method. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+
+#: woocommerce/myaccount/form-add-payment-method.php:50
+msgid "Add Payment Method"
+msgstr ""
+
+#: woocommerce/myaccount/form-change-password.php:20
+#: woocommerce/myaccount/form-lost-password.php:33
+msgid "New password"
+msgstr "Nytt lösenord"
+
+#: woocommerce/myaccount/form-change-password.php:24
+#: woocommerce/myaccount/form-lost-password.php:37
+msgid "Re-enter new password"
+msgstr "Upprepa lösenord"
+
+#: woocommerce/myaccount/form-change-password.php:28
+#: woocommerce/myaccount/form-lost-password.php:49
+msgid "Save"
+msgstr "Spara"
+
+#: woocommerce/myaccount/form-edit-account.php:21
+msgid "First name"
+msgstr "Förnamn"
+
+#: woocommerce/myaccount/form-edit-account.php:25
+msgid "Last name"
+msgstr "Efternamn"
+
+#: woocommerce/myaccount/form-edit-account.php:29
+#: woocommerce/myaccount/form-login.php:82
+msgid "Email address"
+msgstr "E-postadress"
+
+#: woocommerce/myaccount/form-edit-account.php:33
+msgid "Password Change"
+msgstr "Byt lösenord"
+
+#: woocommerce/myaccount/form-edit-account.php:35
+msgid "Current Password (leave blank to leave unchanged)"
+msgstr "Nuvarande lösenord (lämna tomt om du inte vill ändra)"
+
+#: woocommerce/myaccount/form-edit-account.php:39
+msgid "New Password (leave blank to leave unchanged)"
+msgstr "Nytt lösenord (lämna tomt om du inte vill ändra)"
+
+#: woocommerce/myaccount/form-edit-account.php:43
+msgid "Confirm New Password"
+msgstr "Bekräfta nytt lösenord"
+
+#: woocommerce/myaccount/form-edit-account.php:51
+msgid "Save changes"
+msgstr "Spara ändringar"
+
+#: woocommerce/myaccount/form-edit-address.php:16
+#: woocommerce/myaccount/my-address.php:19
+#: woocommerce/myaccount/my-address.php:25
+#: woocommerce/order/order-details.php:121
+msgid "Billing Address"
+msgstr "Faktureringsadress"
+
+#: woocommerce/myaccount/form-edit-address.php:16
+#: woocommerce/myaccount/my-address.php:20
+#: woocommerce/order/order-details.php:136
+msgid "Shipping Address"
+msgstr "Leveransadress"
+
+#: woocommerce/myaccount/form-edit-address.php:44
+msgid "Save Address"
+msgstr "Spara adress"
+
+#: woocommerce/myaccount/form-login.php:34
+msgid "Username or email address"
+msgstr "Användarnamn eller e-postadress"
+
+#: woocommerce/myaccount/form-login.php:66
+#: woocommerce/myaccount/form-login.php:103
+msgid "Register"
+msgstr "Skapa konto"
+
+#: woocommerce/myaccount/form-login.php:75
+msgid "Username"
+msgstr "Användarnamn"
+
+#: woocommerce/myaccount/form-login.php:96
+msgid "Anti-spam"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:21
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:30
+msgid "Enter a new password below."
+msgstr "Ange ett nytt lösenord."
+
+#: woocommerce/myaccount/form-lost-password.php:49
+msgid "Reset Password"
+msgstr "Återställ lösenord"
+
+#: woocommerce/myaccount/my-account.php:19
+#, php-format
+msgid "Hello <strong>%1$s</strong> (not %1$s? <a href=\"%2$s\">Sign out</a>)."
+msgstr "Hej <strong>%1$s</strong> (inte %1$s? <a href=\"%2$s\">Logga ut</a>)."
+
+#: woocommerce/myaccount/my-account.php:24
+#, php-format
+msgid ""
+"From your account dashboard you can view your recent orders, manage your "
+"shipping and billing addresses and <a href=\"%s\">edit your password and "
+"account details</a>."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:17
+msgid "My Addresses"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:23
+msgid "My Address"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:35
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:67
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: woocommerce/myaccount/my-downloads.php:20
+msgid "Available downloads"
+msgstr ""
+
+#: woocommerce/myaccount/my-downloads.php:29
+#, php-format
+msgid "%s download remaining"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:26
+msgid "Recent Orders"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:34
+msgid "Order"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:35
+msgid "Date"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:61
+#, php-format
+msgid "%s for %s item"
+msgstr ""
+
+#: woocommerce/myaccount/view-order.php:19
+#, php-format
+msgid ""
+"Order <mark class=\"order-number\">%s</mark> was placed on <mark class="
+"\"order-date\">%s</mark> and is currently <mark class=\"order-status\">%s</"
+"mark>."
+msgstr ""
+
+#: woocommerce/myaccount/view-order.php:23 woocommerce/order/tracking.php:23
+msgid "Order Updates"
+msgstr ""
+
+#: woocommerce/myaccount/view-order.php:29 woocommerce/order/tracking.php:29
+msgid "l jS \\o\\f F Y, h:ia"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:17
+msgid ""
+"To track your order please enter your Order ID in the box below and press "
+"return. This was given to you on your receipt and in the confirmation email "
+"you should have received."
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:22
+msgid "Order ID"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:23
+msgid "Found in your order confirmation email."
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:28
+msgid "Billing Email"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:29
+msgid "Email you used during checkout."
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:34
+msgid "Track"
+msgstr ""
+
+#: woocommerce/order/order-details.php:14
+msgid "Order Details"
+msgstr ""
+
+#: woocommerce/order/order-details.php:55
+#, php-format
+msgid "Download file%s"
+msgstr ""
+
+#: woocommerce/order/order-details.php:105
+msgid "Telephone:"
+msgstr ""
+
+#: woocommerce/order/order-details.php:125
+#: woocommerce/order/order-details.php:140
+#: woocommerce/single-product/meta.php:23
+msgid "N/A"
+msgstr ""
+
+#. /Templates
+#. * @version     2.2.0
+#.
+#. Exit if accessed directly
+#: woocommerce/order/tracking.php:12
+#, php-format
+msgid "Order %s which was made %s has the status &ldquo;%s&rdquo;"
+msgstr ""
+
+#: woocommerce/order/tracking.php:12
+msgid "ago"
+msgstr ""
+
+#: woocommerce/order/tracking.php:14
+msgid "and was completed"
+msgstr ""
+
+#: woocommerce/order/tracking.php:14
+msgid " ago"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:21
+#, php-format
+msgid "%s review for %s"
+msgstr "%s recensioner för %s"
+
+#: woocommerce/single-product-reviews.php:23
+msgid "Reviews"
+msgstr "Recensioner"
+
+#: woocommerce/single-product-reviews.php:44
+msgid "There are no reviews yet."
+msgstr "Det finns inga recensioner än."
+
+#: woocommerce/single-product-reviews.php:57
+msgid "Add a review"
+msgstr "Recensera"
+
+#: woocommerce/single-product-reviews.php:57
+msgid "Be the first to review"
+msgstr "Bli först att lämna en recension"
+
+#: woocommerce/single-product-reviews.php:58
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Svara %s"
+
+#: woocommerce/single-product-reviews.php:62
+msgid "Name"
+msgstr "Namn"
+
+#: woocommerce/single-product-reviews.php:67
+msgid "Submit"
+msgstr "Skicka"
+
+#: woocommerce/single-product-reviews.php:74
+msgid "Your Rating"
+msgstr "Ditt betyg"
+
+#: woocommerce/single-product-reviews.php:76
+msgid "Rate&hellip;"
+msgstr "Betyg&hellip;"
+
+#: woocommerce/single-product-reviews.php:77
+msgid "Perfect"
+msgstr "Perfekt"
+
+#: woocommerce/single-product-reviews.php:78
+msgid "Good"
+msgstr "Bra"
+
+#: woocommerce/single-product-reviews.php:79
+msgid "Average"
+msgstr "Genomsnittslig"
+
+#: woocommerce/single-product-reviews.php:80
+msgid "Not that bad"
+msgstr "Inte så dålig"
+
+#: woocommerce/single-product-reviews.php:81
+msgid "Very Poor"
+msgstr "Dålig"
+
+#: woocommerce/single-product-reviews.php:86
+msgid "Your Review"
+msgstr "Din recension"
+
+#: woocommerce/single-product-reviews.php:95
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:28
+msgid "Choose an option"
+msgstr "Välj"
+
+#: woocommerce/single-product/add-to-cart/variable.php:76
+msgid "Clear selection"
+msgstr "Rensa val"
+
+#: woocommerce/single-product/add-to-cart/variable.php:111
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: woocommerce/single-product/meta.php:23
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:29
+msgid "Tag:"
+msgstr "Tagg:"
+
+#: woocommerce/single-product/product-attributes.php:30
+msgid "Weight"
+msgstr "Vikt"
+
+#: woocommerce/single-product/product-attributes.php:37
+msgid "Dimensions"
+msgstr "Dimensioner"
+
+#: woocommerce/single-product/rating.php:23
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "Betyg %s av 5"
+
+#: woocommerce/single-product/rating.php:25
+#: woocommerce/single-product/review.php:29
+msgid "out of 5"
+msgstr "av 5"
+
+#: woocommerce/single-product/rating.php:28
+#, php-format
+msgid "%s customer review"
+msgstr "%s kundbetyg"
+
+#: woocommerce/single-product/related.php:43
+msgid "Related Products"
+msgstr "Relaterade produkter"
+
+#: woocommerce/single-product/review.php:28
+#, php-format
+msgid "Rated %d out of 5"
+msgstr "Betyg %d av 5"
+
+#: woocommerce/single-product/review.php:36
+msgid "Your comment is awaiting approval"
+msgstr "Din kommentar väntar godkännande"
+
+#: woocommerce/single-product/review.php:45
+msgid "verified owner"
+msgstr "verifierad ägare"
+
+#: woocommerce/single-product/tabs/description.php:14
+msgid "Product Description"
+msgstr "Produktbeskrivning"
+
+#: woocommerce/single-product/up-sells.php:42
+msgid "You may also like&hellip;"
+msgstr "Du gillar nog också&hellip;"
+
+#: woocommerce/skin/cd/content-product-inner.php:25
+#: woocommerce/skin/fashion/content-product-inner.php:82
+#: woocommerce/skin/gifts/content-product-inner.php:31
+msgid "Quick View"
+msgstr "Visa"
+
+#: woocommerce/widgets/widget-layered-nav-filters.php:66
+#: woocommerce/widgets/widget-layered-nav-filters.php:73
+#: woocommerce/widgets/widget-layered-nav-filters.php:78
+msgid "Remove filter"
+msgstr "Töm filter"
+
+#: woocommerce/widgets/widget-layered-nav-filters.php:73
+msgid "Min"
+msgstr ""
+
+#: woocommerce/widgets/widget-layered-nav-filters.php:78
+msgid "Max"
+msgstr ""
+
+#: woocommerce/widgets/widget-layered-nav.php:91
+#, php-format
+msgid "Any %s"
+msgstr ""
+
+#: woocommerce/widgets/widget-price-filter.php:143
+msgid "Min price"
+msgstr "Lägsta pris"
+
+#: woocommerce/widgets/widget-price-filter.php:144
+msgid "Max price"
+msgstr "Högsta pris"
+
+#: woocommerce/widgets/widget-price-filter.php:145
+msgid "Filter"
+msgstr "Filtrera"
+
+#: woocommerce/widgets/widget-price-filter.php:147
+msgid "Price:"
+msgstr "Pris:"
+
+#: woocommerce/widgets/widget-product-categories.php:139
+msgid "No product categories exist."
+msgstr "Inga produktkategorier finns."
+
+#: woocommerce/widgets/widget-product-search.php:37
+msgid "Search for:"
+msgstr "Sök efter:"
+
+#: woocommerce/widgets/widget-product-search.php:39
+msgid "Search for products"
+msgstr "Sök efter produkter"

@@ -1,0 +1,21 @@
+@mixin button-outline-mobile($color, $background, $border, $background-hover, $color-hover, $border-hover, $height, $padding) {
+    color: $color;
+    background-color: $background;
+    border: $border;
+    @include border-radius(0);
+    height: $height;
+    padding: $padding;
+    &:hover,
+    &:focus,
+    &:active,
+    &.active {
+        color: $color-hover;
+        background-color: $background-hover;
+        border: $border-hover;
+    }
+    .fa,.icon{
+        font-size: $icon-font-size-base;
+        margin: 0;
+    }
+}
+

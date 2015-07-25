@@ -1,0 +1,29 @@
+body{
+	background: #EBEEF5;
+}
+html, html a{
+	@include text-shadow(none!important);
+}
+.default-template{
+	article.page {
+		> *{
+			background: $white;
+			padding: 20px;
+		}
+		div[class*="columns-"]{
+			background: none!important;
+			padding: 0!important;
+		}	
+	}	
+}
+.single-post{
+	#wpo-content{
+		padding: 20px;
+		margin-bottom: 30px;
+		background: $white;
+	}
+}
+
+.post-area .blog-post-detail .information-post{
+	padding: 20px;
+}

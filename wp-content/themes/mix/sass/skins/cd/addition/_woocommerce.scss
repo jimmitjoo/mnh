@@ -1,0 +1,241 @@
+/*------------------------------------*\
+    Product Grid CD skin
+\*------------------------------------*/
+.product-grid{
+	&.style-cd{
+        position: relative;
+        outline: 3px solid $nocolor;
+        outline-offset: 0;
+        border: none;
+        @include transition(all 0.35s);
+        &:before{
+            @include transition(opacity 0.35s);
+            position: absolute;
+            content:"";
+            top: 0;
+            left: 0;
+            width: 3px;
+            background: $theme-color;
+            height: 100%;
+            z-index: 999;
+            @include opacity(0);
+        }
+        &:after{
+            @include transition(opacity 0.35s);
+            position: absolute;
+            content:"";
+            top: 0;
+            right: 0;
+            width: 3px;
+            background: $theme-color;
+            height: 100%;
+            z-index: 999;
+            @include opacity(0);
+        }
+        .border-hover{
+            height: 0; 
+            width: 0;
+            @include opacity(0);
+            @include transition(opacity 0.35s);
+            &:before{
+                position: absolute;
+                content:"";
+                top: 0;
+                left: 0;
+                width: 100%;
+                background: $theme-color;
+                height: 3px;
+                z-index: 999;
+            }
+        &:after{
+                position: absolute;
+                content:"";
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                background: $theme-color;
+                height: 3px;
+                z-index: 999;
+            }
+        }
+        .caption{
+            border: 1px solid $border-color;
+            border-top: none;
+        }
+        .image{
+            position: relative;
+            .quick-view{
+                @include transition(all 0.3s);
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-top: -50px;
+                margin-left: -52px;
+                @include scale(0);
+                a{
+                    display: inline-block;
+                }
+            }
+        } 
+        .name{
+            text-transform: none;
+        }
+		.meta{
+            position: relative;
+            padding: 20px 20px 10px;
+            .desc-top {
+                min-height: 101px;
+                 > *{
+                    padding-left: 0!important;
+                    padding-right: 0!important;
+                    text-align: left;
+                    padding-bottom: 12px;
+                }
+                .rating{
+                    float: left;
+                }
+                .price{
+                    padding: 0 10px;
+                    width: 100%;
+                    &.old-price{
+                        line-height: 30px;
+                        color: $black;
+                    }
+                    del{
+                        color: #999999;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+
+        .action-bottom {
+            text-align: center;
+            min-height: 35px;
+            width: 100%;
+            bottom: 100%;
+            visibility: visible;
+            @include opacity(0);
+            @include transition(all 0.35s);
+            margin-top: 0;
+            padding: 0;
+            .action-bottom-wrap .button-groups {
+                > div{  
+                    float: left;
+                    padding: 5px;
+                    margin: 0 2.5px;
+                    &:first-child{
+                        margin-left: 0;
+                    }
+                    .title{
+                        display: none;
+                    }
+                    a{
+                        color: #989898;
+                        line-height: 22px;
+                        text-align: center;
+                        @include size(22px, auto);
+                    }
+                }
+            } 
+        }
+        &:hover{
+            &:before, &:after, .border-hover{
+                @include opacity(1);
+            }
+            .quick-view{
+                margin-top: -15px;
+                @include scale(1);
+            }
+            .caption{
+                border-color: $nocolor;
+            }
+            .action-bottom{
+                @include opacity(1);
+            }
+        }
+    }	
+}	
+
+.onsale{
+    border: none!important;
+}
+
+.product-info{
+    .product-title{
+        font-family: $font-family-second;
+    }
+}
+
+.woocommerce-tabs .tab-title, .woocommerce-tabs #reviews #comments > h2{
+    font-family: $font-family-second;
+    font-weight: 300!important;
+    @include font-size(font-size, 18px);
+    letter-spacing: 1px;
+}
+
+.widget.widget-products .carousel-control{
+    @include border-radius(50%);
+    font-size: 13px;
+    color: $black;
+}
+
+.wpo-sidebar{
+    .widget_top_rated_products, .widget-products{
+        padding: 20px!important;
+        border: 1px solid $theme-color!important;
+    }
+}    
+
+.product_list_widget .widget-product{
+    border: none;
+}
+
+.widget{
+    &.widget_categories, &.widget_product_categories{
+        .widget-title, .widgettitle{
+            span{
+                padding: 0;
+                &:before, &:after{
+                    content: none;
+                }
+            }
+        }
+        ul, .product-categories{
+            li{
+                font-size: 10px;
+                font-weight: 400!important;
+                text-transform: none!important;
+                background-position: 30px 27px!important;
+                padding: 16px 0 16px 45px!important; 
+                &:last-child{
+                    border: none;  
+                }
+                .count{
+                    color: $block-sidebar-hightlight-content-color;
+                }
+                a{
+                    color: $block-sidebar-hightlight-content-color;
+                    &:hover{
+                        color: $theme-color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.breadcrumb{
+    border-bottom: 1px solid $border-color;
+    nav{
+        text-align: left!important;
+        line-height: 1;
+        .breadcrumb-name{
+            display: block;
+           margin-top: 0;
+           width: 100%;
+           font-family: $font-family-second;
+        }
+    }
+}
+

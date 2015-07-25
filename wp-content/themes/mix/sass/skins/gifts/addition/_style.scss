@@ -1,0 +1,43 @@
+.social{
+    li{
+        a{
+            @include transition(all 0.5s);
+            > *{
+              color: $white;
+            }
+            &.dribbble{
+                    background: #F26798;
+                }
+            &.facebook{
+                background: #3b589e;
+            }
+            &.google-plus{
+                background: #d44132;
+            }
+            &.skype{
+                background: #00A8E6;
+            }
+            &.tumblr{
+                background: #465a74;
+            }
+            &.twitter{
+                background: #40BBF7;
+            }
+            &.youtube{
+                background: #F04E43; 
+            }
+            &.pinterest{
+
+            }
+            &.linkedin{
+                background: #F8659C;
+            }
+            &:hover{
+                @include rotate(360deg);
+            }
+        }
+    }    
+}
+.wpo-header.skin-sport .mainmenu-content .top-cart{
+    padding: 12px;
+}

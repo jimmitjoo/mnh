@@ -1,0 +1,40 @@
+$theme-color:               		#49CAE7;
+$theme-color-second: 				#293241;
+
+$image-theme-path                   :'../../../images/';
+$woo-font-path                      :'../../../fonts/woocommerce/';
+$image-theme-skin                    :'../../../images/skins/mobile/';
+$theme-font-path                 	: '../../../fonts/';
+// Font
+// -------------------------
+$font-family-second 				: 'Roboto';
+ 
+// Breadcrumb
+// -------------------------
+$breadcrumb-bg       : rgba($black, 0.01);
+$breadcrumb-bg-image : url("#{$image-theme-path}breadcrumb-bg.png");
+$breadcrumb-border   : 0px;
+
+// Typography
+// --------------------------
+$font-size-lg       : 48px;
+
+$font-slide-primary: "Roboto";
+$font-slide-second: "Roboto";
+
+$nav-tabs-background							: $theme-color-second;
+$nav-tabs-border-radius							: 0;
+$nav-tabs-color									: #909cad;
+$nav-tabs-active-link-hover-color				: $white;
+$nav-tabs-active-link-hover-bg					: $nocolor;
+$nav-tabs-padding								: 5px 20px;
+$nav-tabs-font-weight							: 300;
+@import
+    "form",
+    "layout",
+    "menu",
+    "page",
+    "post-vars",
+    "visual-vars",
+    "widget";
+

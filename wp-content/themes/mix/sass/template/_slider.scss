@@ -1,0 +1,327 @@
+/*
+*  Revolution Slider
+*/
+.slide-full{
+	margin-left:  (- $grid-gutter-width + 10);
+	margin-right:  (- $grid-gutter-width + 10);
+}
+
+.wpb_revslider_element{
+	overflow: hidden;
+	&:hover{
+		.tparrows{
+			visibility: visible;
+			@include opacity(1);
+		}
+		.tp-leftarrow{
+			@include rtl-margin-left(0px);
+		}
+		.tp-rightarrow{
+			@include rtl-margin-right(0px);
+		}
+	}
+	.tp-bullets.simplebullets.round .bullet{
+		background-image: none;
+		background-color: $gray-darker;
+		border: 2px solid transparent;
+		@include transition(all .5s ease-out);
+		@include box-shadow(none);
+		@include text-shadow(none);
+		@include square(10px);
+		@include border-radius(20px);
+		&.selected{
+			border-color: $theme-color;
+			background-color: $white;
+		}
+	}
+	.no-slides-text{
+		padding: 50px 0px;
+	}
+}
+
+.tp-caption{
+	&.text-white{
+		@include font-size(font-size, 60px);
+		color: $white;
+		font-family: $font-slide-second;
+		font-weight: 900;
+		text-transform: uppercase;
+		line-height: 60px!important;
+	}
+	&.text-white-medium{
+		@include font-size(font-size, 24px);
+		color:$white;
+		padding-bottom: 10px;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-family: $font-slide-primary;
+	}
+	&.text-white-small{
+		@include font-size(font-size, 12px);
+		color:$white;
+		font-family: $font-slide-primary;
+		font-weight: 400;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+	}
+	.btn{
+		padding: $slideshow-btn-padding;
+		color: $white;
+		height: $slideshow-btn-height;
+		line-height: $slideshow-btn-height;
+		font-size: $slideshow-btn-font-size;
+		@include state-hover(.5s,40px, $btn-outline-inverse-hover-bg);
+		&:hover{
+			color: $white;
+		}
+		&.yellow{
+			background: $yellow;
+			color: $gray-darker;
+			&:hover{
+				color: $white;
+				background: $gray-darker;
+			}
+		}
+	}
+	&.overlay{
+		display: block;
+		z-index: 1 !important;
+		text-indent: -9999px;
+		background: transparentize($black, .5);
+		@include size(960px, 227px);
+	}
+}
+
+.tparrows{
+	&.default{
+		top: 46%;
+		color: $white;
+		background-image: none;
+		position: relative;
+		visibility: hidden;
+		background-color: rgba($black, 0.25);
+		@include opacity(0);
+		@include size(32px, 50px);
+		@include transition(all .5s ease-in);
+		&:before{
+			content: "\f105";
+			font-family: $theme-font-name;
+			margin: auto;
+			display: block;
+    		color: $white;
+    		font-weight: bold;
+    		@include font-size(font-size, 15px);
+    		@include vertical-center(4px, 25px);
+		}
+	}
+	&.tp-leftarrow{
+		@include rtl-margin-left(-52px);
+		&:before{
+			content: "\f104";
+		}
+	}
+	&.tp-rightarrow{
+		@include rtl-margin-right(-52px);
+	}
+	&:hover{
+		background-color: rgba($theme-color, .8);
+		&:before{
+			color: $white;
+		}
+	}
+	@include state-hover(.5s,50px, rgba($theme-color, .8));
+}
+
+/*-----------------Slide cd skin-------------------*/
+
+.tp-caption{
+	&.cd-text-white{
+		@include font-size(font-size, 60px);
+		color:$white;
+		font-family: $font-slide-primary;
+		font-weight: 900;
+		text-transform: uppercase;
+		line-height: 60px!important;
+	}
+	&.cd-text-white-medium{
+		@include font-size(font-size, 12px);
+		color:$white;
+		padding-bottom: 10px;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-family: $font-slide-primary;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+	}
+	&.cd-text-white-small{
+		@include font-size(font-size,12px);
+		color:$white;
+		font-family: $font-slide-second;
+		font-weight: 400;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+	}
+}
+
+/*-----------------Slide gifts skin-------------------*/
+
+.tp-caption{
+	&.gifts-text-big-orange{
+		@include font-size(font-size, 90px);
+		color: #f8c255;
+		font-family: 'Ubuntu';
+		font-weight: 700;
+		text-transform: uppercase;
+		line-height: 90px!important;
+	}
+	&.gifts-text-orange{
+		@include font-size(font-size, 30px);
+		color: #ff9b6d;
+		font-family: 'Ubuntu';
+		font-weight: 700;
+		text-transform: uppercase;
+		line-height: 30px!important;
+		font-style: italic;
+	}
+	&.gifts-text-black-medium{
+		@include font-size(font-size, 50px);
+		color: $black;
+		font-family: 'Ubuntu';
+		font-weight: 300;
+		text-transform: uppercase;
+		line-height: 50px!important;
+	}
+	&.gifts-text-white{
+		@include font-size(font-size, 60px);
+		color:$white;
+		font-family: 'Lato';
+		font-weight: 900;
+		text-transform: uppercase;
+		line-height: 60px!important;
+	}
+	&.gifts-text-white-medium{
+		@include font-size(font-size, 50px);
+		color: $white;
+		font-family: 'Ubuntu';
+		font-weight: 300;
+		text-transform: uppercase;
+		line-height: 50px!important;
+	}
+	&.gifts-text-small{
+		@include font-size(font-size, 12px);
+		color:#999999;
+		font-family: 'Ubuntu';
+		font-weight: 300;
+		text-transform: uppercase;
+	}
+}
+
+/*-----------------Slide sport skin-------------------*/
+.tp-caption{
+	&.sport-text-white{
+		@include font-size(font-size, 60px);
+		color:$white;
+		font-family: $font-slide-primary;
+		font-weight: 900;
+		text-transform: uppercase;
+		line-height: 60px!important;
+	}
+	&.sport-text-white-medium{
+		@include font-size(font-size, 50px);
+		color:$white;
+		padding-bottom: 10px;
+		text-transform: uppercase;
+		font-weight: 100;
+		font-family: $font-slide-primary;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+	}
+}
+
+/*-----------------Slide mobile skin-------------------*/
+.tp-caption{
+	&.mobile-text-white{
+		@include font-size(font-size, 60px);
+		color:$white;
+		font-family: $font-slide-primary;
+		font-weight: 100;
+		text-transform: none;
+		line-height: 60px!important;
+		span{
+			font-weight: 900;
+			text-transform: uppercase;
+		}
+	}
+	&.mobile-text-small{
+		@include font-size(font-size, 15px);
+		color:$white;
+		padding-bottom: 10px;
+		text-transform: uppercase;
+		font-weight: 300;
+		font-family: $font-slide-primary;
+		text-transform: none;
+		color: #999999;
+	}
+	&.mobile-text-price{
+		@include font-size(font-size, 18px);
+		color:$white;
+		padding-bottom: 10px;
+		text-transform: uppercase;
+		font-weight: 300;
+		font-family: $font-slide-primary;
+		text-transform: none;
+		color: $theme-color;
+		text-transform: uppercase;
+	}
+}
+
+/*-----------------Slide market skin-------------------*/
+.tp-caption{
+	&.market-text-white{
+		@include font-size(font-size, 60px);
+		color:$white;
+		font-family: $font-slide-second;
+		font-weight: 900;
+		text-transform: none;
+		line-height: 60px!important;
+		span{
+			font-weight: 900;
+			text-transform: uppercase;
+		}
+	}
+	&.market-text-blue{
+		@include font-size(font-size, 60px);
+		color: #4baef5;
+		font-family: $font-slide-second;
+		font-weight: 900;
+		text-transform: none;
+		line-height: 60px!important;
+		span{
+			font-weight: 900;
+			text-transform: uppercase;
+		}
+	}
+	&.market-text-small{
+		@include font-size(font-size, 14px);
+		color: $white;
+		padding-bottom: 10px;
+		text-transform: uppercase;
+		font-weight: 300;
+		font-family: $font-slide-primary;
+		&.black{
+			color: $black!important;
+		}
+	}
+	&.market-text-medium{
+		@include font-size(font-size, 24px);
+		color:#eeeb22;
+		padding-bottom: 10px;
+		text-transform: uppercase;
+		font-weight: 300;
+		font-family: $font-slide-primary; 
+		text-transform: uppercase;
+		&.black{
+			color: $black!important;
+		}
+	}
+} 

@@ -1,0 +1,43 @@
+$theme-color:               		#7dd5c9;
+$theme-color-second: 				#f8c357;
+
+$image-theme-path                   :'../../../images/';
+$woo-font-path                      :'../../../fonts/woocommerce/';
+$image-theme-skin                   :'../../../images/skins/gifts/';
+$theme-font-path                 	: '../../../fonts/';
+// Font
+// -------------------------
+$font-family-second 				: 'Ubuntu';
+
+// Breadcrumb
+// -------------------------
+$breadcrumb-bg       : rgba($black, 0.01);
+$breadcrumb-bg-image : url("#{$image-theme-path}breadcrumb-bg.png");
+$breadcrumb-border   : 0px;
+
+//Font slide
+// -------------------------
+$font-slide-primary		: 'Ubuntu';
+$font-slide-second		: 'Ubuntu';
+
+
+// Typography
+// --------------------------
+$font-size-lg       : 48px;
+
+
+$nav-tabs-background							: #DFDFDF;
+$nav-tabs-border-radius							: 20px;
+$nav-tabs-color									: #fff;
+$nav-tabs-active-link-hover-color				: #000;
+$nav-tabs-active-link-hover-bg					: #fff;
+$nav-tabs-padding								: 5px 20px;
+@import
+    "form",
+    "layout",
+    "menu",
+    "page",
+    "post-vars",
+    "visual-vars",
+    "widget";
+

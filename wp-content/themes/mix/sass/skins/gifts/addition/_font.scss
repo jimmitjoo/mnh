@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'icomoon';
+    src:url('#{$theme-font-path}icomoon/icomoon.eot?-swuswr');
+    src:url('#{$theme-font-path}icomoon/icomoon.eot?#iefix-swuswr') format('embedded-opentype'),
+        url('#{$theme-font-path}icomoon/icomoon.svg?-swuswr#icomoon') format('svg'),
+        url('#{$theme-font-path}icomoon/icomoon.woff?-swuswr') format('woff'),
+        url('#{$theme-font-path}icomoon/icomoon.ttf?-swuswr') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-spinner:before {
+    content: "\e600";
+}
+.icon-tag:before {
+    content: "\e602";
+}
+.icon-bubble:before {
+    content: "\e601";
+}
+.icon-truck:before {
+    content: "\e603";
+}
+.icon-cycle:before {
+    content: "\e604";
+}
+
+//Ubuntu
+//----------------------------------------
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Ubuntu Light'), local('Ubuntu-Light'), url(http://fonts.gstatic.com/s/ubuntu/v7/_aijTyevf54tkVDLy-dlnD8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ubuntu'), url(http://fonts.gstatic.com/s/ubuntu/v7/_xyN3apAT_yRRDeqB3sPRg.woff) format('woff');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Ubuntu Medium'), local('Ubuntu-Medium'), url(http://fonts.gstatic.com/s/ubuntu/v7/OsJ2DjdpjqFRVUSto6IffD8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(http://fonts.gstatic.com/s/ubuntu/v7/0ihfXUL2emPh0ROJezvraD8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}

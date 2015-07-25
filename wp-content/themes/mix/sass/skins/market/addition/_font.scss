@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'icomoon';
+    src:url('#{$theme-font-path}icomoon/icomoon.eot?-swuswr');
+    src:url('#{$theme-font-path}icomoon/icomoon.eot?#iefix-swuswr') format('embedded-opentype'),
+        url('#{$theme-font-path}icomoon/icomoon.svg?-swuswr#icomoon') format('svg'),
+        url('#{$theme-font-path}icomoon/icomoon.woff?-swuswr') format('woff'),
+        url('#{$theme-font-path}icomoon/icomoon.ttf?-swuswr') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-phone-outline:before {
+  content: "\e604";
+}
+
+.icon-cycle:before {
+  content: "\e601";
+}
+
+.icon-tag:before {
+  content: "\e600";
+}
+
+.icon-bubble:before {
+  content: "\e602";
+}
+
+.icon-truck:before {
+  content: "\e603";
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat-Regular'), url(http://fonts.gstatic.com/s/montserrat/v6/zhcz-_WihjSQC0oHJ9TCYBsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Montserrat-Bold'), url(http://fonts.gstatic.com/s/montserrat/v6/IQHow_FEYlDC4Gzy_m8fcgFhaRv2pGgT5Kf0An0s4MM.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Lovelo';
+    src:url('#{$theme-font-path}lovelo/LoveloBlack.eot?-swuswr');
+    src:url('#{$theme-font-path}lovelo/LoveloBlack.eot?#iefix-swuswr') format('embedded-opentype'),
+        url('#{$theme-font-path}lovelo/LoveloBlack.svg?-swuswr#icomoon') format('svg'),
+        url('#{$theme-font-path}lovelo/LoveloBlack.woff?-swuswr') format('woff'),
+        url('#{$theme-font-path}lovelo/LoveloBlack.ttf?-swuswr') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}

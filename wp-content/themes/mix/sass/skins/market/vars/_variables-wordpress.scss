@@ -1,0 +1,47 @@
+$theme-color:               		#7fbc3a;
+$theme-color-second: 				#2E2D32;
+
+$image-theme-path                   :'../../../images/';
+$woo-font-path                      :'../../../fonts/woocommerce/';
+$image-theme-skin                   :'../../../images/skins/market/';
+$theme-font-path                 	: '../../../fonts/';
+// Font
+// -------------------------
+$font-family-second 				: 'Montserrat';
+
+// Breadcrumb
+// -------------------------
+$breadcrumb-bg       : rgba($black, 0.01);
+$breadcrumb-bg-image : url("#{$image-theme-path}breadcrumb-bg.png");
+$breadcrumb-border   : 0px;
+
+//Font slide
+// -------------------------
+$font-slide-primary		: 'Montserrat';
+$font-slide-second		: 'Lovelo';
+
+// Typography
+// --------------------------
+$font-size-lg       : 48px;
+
+$nav-tabs-background							: $theme-color-second;
+$nav-tabs-border-radius							: 0;
+$nav-tabs-color									: $black;
+$nav-tabs-active-link-hover-color				: $white;
+$nav-tabs-active-link-hover-bg					: $nocolor;
+$nav-tabs-padding								: 5px 20px;
+$nav-tabs-left-font-weight						: 700;
+
+//Font slide
+// --------------------------
+$font-slide-primary		: $font-family-base;
+
+@import
+    "form",
+    "layout",
+    "menu",
+    "page",
+    "post-vars",
+    "visual-vars",
+    "widget";
+

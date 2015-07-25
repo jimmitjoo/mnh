@@ -1,0 +1,144 @@
+//Page default
+//---------------------------------
+.default-template .article{
+	background: $white;
+}
+
+// Elements Boostrap Page
+//----------------------------------
+.bs-component,
+.bs-docs-section{
+	.modal{
+		bottom: auto;
+		display: block;
+		left: auto;
+		position: relative;
+		right: auto;
+		top: auto;
+		z-index: 1;
+	}
+	p:empty{
+		margin: 0;
+		padding: 0;
+		@include hide-text();
+	}
+	br{
+		display: none;
+	}
+	.modal-dialog{
+		width: 90%;
+	}
+}
+
+// Contact Page
+//----------------------------------
+
+div.wpcf7-validation-errors{
+	margin: 0;
+	padding: 15px;
+}
+.contact-form-content{
+	padding: $theme-padding;
+	background: $contact-bg;
+	margin-bottom: $theme-margin + 10;
+	min-height: 260px;
+	.rounded{
+		color: $white;
+		@include size(40px,40px);
+		background: darken($body-bg, 20%);
+		.fa,.icon{
+			@include font-size(font-size,16px);
+			margin: 13px;
+		}
+	}
+	small{
+		color: darken($text-color, 20%);
+	}
+}
+
+
+
+// Page Not Found
+//----------------------------------
+.page_not_found{
+	@include rtl-margin(20px, 0, 80px, 0);
+	.error-title{
+		letter-spacing: $error-title-letter-spacing;
+		margin: $error-title-margin;
+		@include font-size(font-size,$error-title-font-size);
+	}
+	.error-content{
+		line-height: 40px;
+		margin-bottom: 30px;
+		@include font-size(font-size,$error-content-font-size);
+	}
+	.page-footer{
+		p{
+			margin-bottom: 20px;
+		}
+	}
+}
+.woocommerce-page .header-title{
+	display: none;
+}
+
+.blog-masonry{
+	.post-container{
+		margin-bottom: 20px;
+		background: $white; 
+	}
+	.entry-title{
+		font-size: $font-size-base + 2;
+		line-height: 1.2;
+		padding-top: 10px;
+		margin-bottom: 0!important;
+	}
+	.entry-meta{
+		margin-top: 5px!important;
+	}
+}
+
+.blog-page-list{
+	.entry-title{
+		font-size: $font-size-base + 3;
+		line-height: 1.2;
+		padding-top: 10px;
+		margin-bottom: 0!important;
+	}
+	.entry-meta{
+		margin-top: 5px!important;
+	}
+}
+
+.portfolio-page{
+	.wpo-portfolio {
+		.isotope-filter {
+  			text-align: center;
+  		}
+  		.widget-title {
+			margin-bottom: 20px;
+			padding-bottom: 20px;
+		}
+		#filters {
+		  	margin-top: 50px;
+		  	overflow: hidden;
+		  	padding-bottom: 15px;
+		  	text-align: center;
+		  	a.active {
+			  color: $theme-color;
+			}
+		}	
+	}
+	.isotope-list .item {
+	  	-webkit-transform: translateX(1px);
+	  	-ms-transform: translateX(1px);
+	  	-o-transform: translateX(1px);
+	  	transform: translateX(1px);
+	  	margin-left: -1px;
+	}	
+	.entry-title-bottom {
+  		border: 1px solid #e5e5e5;
+  		border-top: none;
+	}
+}
+

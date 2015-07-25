@@ -1,0 +1,34 @@
+body{
+	background:  url('#{$image-theme-path}gifts-bg.png') repeat transparent;
+}
+.wpo-wrapper{
+	max-width: 1330px;
+	background-color: $page-background;
+	margin: 0 auto;
+	overflow: hidden!important;
+}
+.single-product .wpo-wrapper{
+	background: $white;
+}
+.default-template{
+	article.page {
+		> *{
+			background: $white;
+			padding: 20px;
+		}
+		div[class*="columns-"]{
+			background: none!important;
+			padding: 0!important;
+		}	
+	}	
+}
+.single-post{
+	#wpo-content{
+		background: $white;
+		padding: 20px;
+		margin-bottom: 30px;
+	}
+}
+.post-area .blog-post-detail .information-post{
+	padding: 20px;
+}

@@ -1,0 +1,36 @@
+.round{
+	@include box-shadow(0 0 3px rgba(0,0,0, 0.3));
+	background: $white;
+}
+.sport-adv{
+	display: inline-block;
+	position: relative;
+	margin-top: -80px;
+	z-index: 999;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.vertical-menu > .nav > li{
+ 	border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+    background: -webkit-linear-gradient(lighten(#FCFCFC, 10%), #FCFCFC)!important; 
+    background: -o-linear-gradient(lighten(#FCFCFC, 10%), #FCFCFC)!important; 
+    background: -moz-linear-gradient(lighten(#FCFCFC, 10%), #FCFCFC)!important; 
+    background: linear-gradient(lighten(#FCFCFC, 10%), #FCFCFC)!important;    
+}
+
+.social{
+    li{
+        a{
+            > *{
+              color: $black;
+            }
+        }
+    }        
+}
+
+.product_list_widget .widget-product .image{
+    border: none!important;
+}
+.wpo-content{
+    margin-bottom: 30px;
+}

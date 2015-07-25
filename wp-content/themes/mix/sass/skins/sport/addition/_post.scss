@@ -1,0 +1,37 @@
+/* Post type: Grid */
+.posts-grid{
+	.post{
+		text-align: center;
+		.entry-description{
+			display: block;
+			text-align: left;
+		}
+		.entry-meta{
+			text-align: left;
+			margin: 0;
+			.readmore, .entry-comment, .entry-category{
+				display: none;
+			}
+		}
+		.entry-content-inner{
+			background: $nocolor;
+			margin: 0;
+			padding: 0;
+		}
+		.entry-title{
+			text-align: left;
+			padding: 15px 0 0;
+			margin: 0 0 5px;
+		}
+	}
+}
+
+.posts-list {
+	.entry-title{
+		text-transform: none!important;
+	}
+}
+
+.blog-post-detail{
+	@include box-shadow(0 0 3px #d2d2d2);
+}

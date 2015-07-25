@@ -1,0 +1,271 @@
+/*------------------------------------*\
+    Product Grid CD skin
+\*------------------------------------*/
+.product-grid{
+	&.style-sport{
+        border: none;
+        @include box-shadow(0px 0px 3px #d2d2d2);
+        @include border-radius(4px); 
+        .image{
+            padding: 30px 30px 0;
+        }
+        .name{
+            min-height: 50px;
+            padding: 0;
+        }
+        .button-action{
+            > div{  
+                position: absolute;
+                top: 10px;
+                right: -10px;
+                @include size(35px, 35px);
+                @include transition-property(all);
+                @include transition-duration(0.35s);
+                @include opacity(0);
+                &.yith-wcwl-add-to-wishlist{
+                    @include transition-delay(0.2s, 0s);
+                }
+                &.yith-compare{
+                    top: 50px;
+                    @include transition-delay(0.3s, 0s);
+                }
+                &.quick-view{
+                    top: 90px;
+                    @include transition-delay(0.4s, 0s);
+                }
+                .title{
+                    display: none;
+                }
+                a{
+                    border: 1px solid $border-color;
+                    @include border-radius(3px);
+                    color: #999999;
+                    line-height: 35px;
+                    text-align: center;
+                    @include size(35px, auto);
+                    @include transition(all 0.35s);
+                    &:hover{
+                        background: $theme-color-second;
+                        border-color: $theme-color-second;
+                        color: $white;
+                    }
+                }
+                &:last-child{
+                    top: 50px;
+                }
+            }
+        }
+        .price{
+            padding: 0 10px;
+            line-height: 32px;
+            font-weight: 300;
+            line-height: 1;
+            &.old-price{
+                color: $theme-color-second;
+                del span{
+                    font-size: 14px;
+                    color: #999999;
+                }
+            }
+        }
+        .caption{
+            .meta{
+                position: relative;
+                padding: 15px 30px 30px;
+                >div{
+                    margin-bottom: 15px;
+                    &.rating{
+                        margin-bottom: 10px;
+                    }
+                    &:last-child{
+                        margin-bottom: 0;
+                    }
+                }
+            }
+            .action-bottom {
+                .btn-cart{
+                    background: -webkit-linear-gradient(lighten(#E7E7E7, 5%), #E7E7E7); 
+                    background: -o-linear-gradient(lighten(#E7E7E7, 5%), #E7E7E7); 
+                    background: -moz-linear-gradient(lighten(#E7E7E7, 5%), #E7E7E7); 
+                    background: linear-gradient(lighten(#E7E7E7, 5%), #E7E7E7);  
+                    display: inline-block;
+                    @include box-shadow(0 1px 1px #bcbcbc);
+                    @include border-radius(2px);
+                    @include transition(all 0.35s);
+                    a{
+                        padding: 6px 22px;
+                        display: block;
+                    }
+                    &:hover{
+                        background: -webkit-linear-gradient(lighten($theme-color-second, 10%), $theme-color-second); 
+                        background: -o-linear-gradient(lighten($theme-color-second, 10%), $theme-color-second); 
+                        background: -moz-linear-gradient(lighten($theme-color-second, 10%), $theme-color-second); 
+                        background: linear-gradient(lighten($theme-color-second, 10%), $theme-color-second); 
+                        @include box-shadow(0 1px 1px $border-color);
+                    } 
+                    .icon-cart{
+                        display: none;
+                    }
+                    .title-cart{
+                        font-size: 12px;
+                        color: #999999;
+                        font-weight: 700;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+        &:hover{
+            .button-action > div{
+                @include opacity(1);
+                right: 10px;
+            }
+            .action-bottom .btn-cart{
+                background: -webkit-linear-gradient(lighten($theme-color, 10%), $theme-color); 
+                background: -o-linear-gradient(lighten($theme-color, 10%), $theme-color); 
+                background: -moz-linear-gradient(lighten($theme-color, 10%), $theme-color); 
+                background: linear-gradient(lighten($theme-color, 10%), $theme-color); 
+                @include box-shadow(0 1px 1px $border-color);
+                .title-cart{
+                     color: $white;
+                }
+            }  
+        }
+    }	
+}	
+
+.widget.widget-products .carousel-control{
+    @include border-radius(50%);
+    font-size: 13px;
+    color: $black;
+}
+
+.product_list_widget .widget-product{
+    border: none;
+}
+
+.product-info{
+    .caroufredsel_wrapper, .caroufredsel_wrapper .yith_magnifier_gallery{
+        height: 450px!important;
+        width: 100%;
+    }
+    .caroufredsel_wrapper{       
+        ul {
+            max-width: 100%;
+            li{
+                a, img{
+                    max-width: 100%;
+                }
+            }  
+        }    
+    }
+    .yith_magnifier_gallery li{
+        width: 100%!important;
+        margin: 0 0 5px;
+        text-align: left;
+    }
+    .images .main-image{
+        padding-right: 5px;
+    }
+}
+
+
+.#{$app-prefix}-sidebar{
+    .widget{
+        &.widget_categories, &.widget_product_categories{
+            .widgettitle, .widget-title{ 
+                background: -webkit-linear-gradient(lighten($theme-color, 10%), $theme-color); 
+                background: -o-linear-gradient(lighten($theme-color, 10%), $theme-color); 
+                background: -moz-linear-gradient(lighten($theme-color, 10%), $theme-color); 
+                background: linear-gradient(lighten($theme-color, 10%), $theme-color);     
+                margin: 0;         
+            }
+            ul, .product-categories{
+                li{
+                    border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+                    background: -webkit-linear-gradient(lighten(#FCFCFC, 10%), #FCFCFC)!important; 
+                    background: -o-linear-gradient(lighten(#FCFCFC, 10%), #FCFCFC)!important; 
+                    background: -moz-linear-gradient(lighten(#FCFCFC, 10%), #FCFCFC)!important; 
+                    background: linear-gradient(lighten(#FCFCFC, 10%), #FCFCFC)!important; 
+                }
+            }
+        }
+    }
+}
+
+.product_list_widget{
+    .widget-product{
+        padding: 20px 0;
+        border-bottom: 1px solid $border-color;
+        &:first-child, &:last-child{
+            padding: 20px 0;
+        }
+    }
+}
+
+.product-info{
+    .button-action{
+        background: -webkit-linear-gradient(lighten(#FCFCFC, 10%), #FCFCFC); 
+        background: -o-linear-gradient(lighten(#FCFCFC, 10%), #FCFCFC); 
+        background: -moz-linear-gradient(lighten(#FCFCFC, 10%), #FCFCFC); 
+        background: linear-gradient(lighten(#FCFCFC, 10%), #FCFCFC); 
+        color: #aaaaaa;
+        font-weight: 900;
+        text-transform: uppercase;
+        @include font-size(font-size, 11px);
+        position: relative;
+        height: 38px;
+        line-height: 36px;
+        padding: 0 30px;
+        display: inline-block;
+        font-weight: $headings-font-weight;
+        @include border-radius(4px);
+        @extend .btn-link;
+        border: 1px solid $border-color;
+        &:focus, &:hover{
+            border-color: $theme-color;
+            background: $theme-color;  
+            color: $white; 
+            text-decoration: none;
+        }
+    }
+    .add-cart{
+        button{
+            text-decoration: none;
+            @include border-radius(4px!important);
+            color: $white!important;
+             font-weight: 900!important;
+            text-transform: uppercase!important;
+            background: -webkit-linear-gradient(lighten($theme-color, 10%), $theme-color)!important; 
+            background: -o-linear-gradient(lighten($theme-color, 10%), $theme-color)!important; 
+            background: -moz-linear-gradient(lighten($theme-color, 10%), $theme-color)!important; 
+            background: linear-gradient(lighten($theme-color, 10%), $theme-color)!important; 
+            &:hover{
+                text-decoration: none;
+                background: -webkit-linear-gradient(lighten($theme-color-second, 10%), $theme-color-second)!important; 
+                background: -o-linear-gradient(lighten($theme-color-second, 10%), $theme-color-second)!important; 
+                background: -moz-linear-gradient(lighten($theme-color-second, 10%), $theme-color-second)!important; 
+                background: linear-gradient(lighten($theme-color-second, 10%), $theme-color-second)!important; 
+            }
+        }
+    }
+}
+
+.star-rating{
+    width: 68px;
+    height: 4px;
+    &:after, &:before{
+        content: "";
+        background: url("#{$image-theme-path}un-rating-sport.png") no-repeat center center;
+        width: 68px;
+        height: 4px;
+    }
+    span{
+        &:after, &:before{
+            content: "";
+            background: url("#{$image-theme-path}rating-sport.png") no-repeat center center;
+            height: 4px;
+            width: 68px;
+        }
+    }
+}

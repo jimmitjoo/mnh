@@ -1,0 +1,304 @@
+/*------------------------------------*\
+    Product Grid CD skin
+\*------------------------------------*/
+.product-grid{
+	&.style-mobile{
+        background: $white;
+        padding: 20px;
+        position: relative;
+        @include transition(all 0.35s);
+        border: none;
+        .image{
+            position: relative; 
+            .onsale{
+                top: 0;
+                left: 0;
+            } 
+            .button-action{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-left: -55px;
+                margin-top: -17.5px;
+                @include opacity(1);
+                > div{  
+                    float: left;
+                    margin-right: 2px!important;
+                    margin-top: -30px!important;
+                    @include transition-property(all);
+                    @include transition-duration(0.35s);
+                    @include opacity(0);
+                    &.quick-view{
+                        @include transition-delay(0, 0s);
+                    }
+                    &.yith-wcwl-add-to-wishlist{
+                        @include transition-delay(0.25s, 0s);
+                    }
+                    &.yith-compare{
+                        @include transition-delay(0.5s, 0s);
+                    }
+                    .title{
+                        display: none;
+                    }
+                    a{
+                        background: $theme-color-second;
+                        color: $white;
+                        line-height: 35px;
+                        text-align: center;
+                        @include size(35px, auto);
+                        @include transition(all 0.35s);
+                        &:hover{
+                            background: $theme-color;
+                        }
+                    }
+                }
+            }   
+        }
+        .rating{
+            overflow: hidden;
+            > div{
+                float: left;
+            }
+        }
+        .price{
+            position: absolute;
+            top: 0;
+            right: 0;
+            background: #293240;
+            padding: 6px 7px 7px 6px;
+            &.old-price{
+                padding: 0;
+                background: $nocolor;
+                ins{
+                    clear: both;
+                    display: block;
+                    background: #E35250;
+                    padding: 6px 7px 7px 6px;
+                }
+            } 
+        }
+        .add-button{
+            .btn-cart{
+                margin-top: 20px;
+                .icon-cart{
+                    display: none;
+                }
+                a{
+                    font-weight: 700;
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .yith-wcwl-add-to-wishlist{
+            a span, .feedback{
+                display: none;
+            }
+            img{
+                bottom: 0;
+                height: 100%;
+                left: 0;
+                margin: auto;
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: 100%;
+            }
+        }
+
+        .caption{
+            border-top: none;
+        }
+        .name{
+            text-transform: none;
+            padding: 0;
+            text-align: left;
+        }
+		.meta{
+            position: relative;
+            display: block;
+            > *{
+                 padding: 15px 0 0;
+                 width: 100%;
+            }
+            .price{
+                display: none;
+                background: none;
+                text-align: left;
+                position: static;
+                color: $black;
+                padding-top: 15px!important;
+                ins{
+                    display: inline-block;
+                    background: none;
+                    color: $black;
+                    padding: 0;
+                }
+                del{
+                    padding-top: 2px;
+                }
+            }
+        }
+
+        &:hover{
+            .caption{
+                border-color: $nocolor;
+            }
+            .button-action > div{
+                @include opacity(1);  
+                margin-top: 0!important;        
+            }
+        } 
+        &:hover{
+            @include box-shadow(0 0 3px 2px rgba(0, 0, 0, 0.1));
+            .btn-cart a{
+                background: $theme-color-second;
+                border-color: $theme-color-second;
+                color: $white;
+            }
+        }
+    }	
+}	
+
+div[class*="col-lg-2"],div[class*="col-xs-2"] {
+    .style-mobile{
+        .price{
+            display: none;
+        }
+        .meta .price{
+            display: block;
+        }
+    }
+}
+
+.product-info{
+    margin-bottom: 0!important;
+    .cart .add-cart button, .button-action{
+        @include border-radius(0);
+    }
+}
+
+.widget.widget-products .carousel-control{
+    @include border-radius(50%);
+    font-size: 13px;
+    color: $black;
+    &.prev{
+        @include rtl-right(40px);
+    }
+    &.next{
+        @include rtl-right(20px);
+    }
+}
+.tab-pane .carousel-control{
+    color: $white!important;
+}
+
+.product_list_widget .widget-product{
+    padding: 15px 0;
+    border-bottom: none;
+    &:last-child, &:first-child{
+        padding: 15px 0!important;
+    }
+    .price{
+        font-size: 14px;
+        font-weight: 900;
+        color: $black;
+    }
+}
+
+.products .product-list{
+    background: $white;
+    .price{
+        background: $theme-color-second;
+        &.old-price{
+            background: $nocolor;
+            color: $black;
+            ins{
+                padding: 3px;
+                background: #e35250;
+                color: $white;
+            }
+        }
+    }
+}
+/*------------------------------------*\
+    Widget Sidebar
+\*------------------------------------*/
+.#{$app-prefix}-sidebar{
+    .widget{
+        &.widget_categories, &.widget_product_categories{
+            .widgettitle, .widget-title{
+                color: $block-sidebar-heading-hightlight-color;
+                padding: $block-sidebar-heading-hightlight-padding;
+                background: $block-sidebar-heading-hightlight-bg;
+                border: none;
+                span{
+                    padding: 0;
+                    &:before, &:after{
+                        content: none;
+                    }
+                }
+            }
+            ul, .product-categories{
+                background: $block-sidebar-hightlight-content-bg;
+                padding: 0 20px;
+                li{
+                    padding: 15px 0 15px 18px;
+                    border-color: rgba(255, 255, 255, 0.1);
+                    background-position: 3px 23px;
+                    &:last-child{
+                        border: none;
+                    }
+                    .count{
+                        color: $block-sidebar-hightlight-content-color;
+                    }
+                    a{
+                        color: $block-sidebar-hightlight-content-color;
+                        &:hover{
+                            color: $theme-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.breadcrumb{
+    nav{
+        text-align: left!important;
+        line-height: 0;
+        .breadcrumb-name{
+            display: none;
+        }
+    }
+}
+
+@media(max-width: $screen-xs-max){
+    .products .carousel-control{
+        top: -50px!important;
+    }
+}
+
+.widget.product-bottom{
+    display: table;
+    height: auto;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    background: $white;
+    font-size: 12px;
+    color: $black;
+    a{
+        color: #666666;
+        font-size: 12px;
+    }
+}
+
+.product-info .yith_magnifier_gallery li{
+    width: 110px!important;
+    border: none;
+    img{
+        border: 1px solid $border-color;
+    }
+}
